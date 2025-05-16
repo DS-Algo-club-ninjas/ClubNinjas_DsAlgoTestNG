@@ -1,97 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T01:19:51 EDT" name="Suite" finished-at="2025-05-16T01:20:28 EDT" duration-ms="37256">
+  <suite started-at="2025-05-16T16:32:56 EDT" name="Suite" finished-at="2025-05-16T16:33:39 EDT" duration-ms="43384">
     <groups>
       <group name="login">
-        <method signature="LoginPageTest.userShouldSignInWithValidLogin()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" name="userShouldSignInWithValidLogin" class="dsAlgoTests.LoginPageTest"/>
+        <method signature="LoginPageTest.userClickSignOut(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" name="userClickSignOut" class="dsAlgoTests.LoginPageTest"/>
+        <method signature="LoginPageTest.userShouldSignInWithValidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" name="userShouldSignInWithValidLogin" class="dsAlgoTests.LoginPageTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2025-05-16T01:19:51 EDT" name="Test" finished-at="2025-05-16T01:20:28 EDT" duration-ms="37256">
+    <test started-at="2025-05-16T16:32:56 EDT" name="Test" finished-at="2025-05-16T16:33:39 EDT" duration-ms="43384">
       <class name="dsAlgoTests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:19:51 EDT" name="setup" finished-at="2025-05-16T01:19:56 EDT" duration-ms="5731" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:32:58 EDT" name="setup" finished-at="2025-05-16T16:33:02 EDT" duration-ms="4153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:19:57 EDT" name="beforeMethod" finished-at="2025-05-16T01:19:58 EDT" duration-ms="1270" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:02 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:04 EDT" duration-ms="1545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userClickSignOut(java.lang.String)[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:19:58 EDT" name="userClickSignOut" data-provider="LoggedOutMessage" finished-at="2025-05-16T01:20:01 EDT" duration-ms="3305" status="PASS">
+        <test-method signature="userClickSignOut(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:04 EDT" name="userClickSignOut" data-provider="ValidloginDetails" finished-at="2025-05-16T16:33:06 EDT" duration-ms="1674" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Logged out successfully]]>
+                <![CDATA[validLoginId]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{password=SeleniumProj@25, username=clubNinjas-Sdet207}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userClickSignOut -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:01 EDT" name="teardown" finished-at="2025-05-16T01:20:02 EDT" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:06 EDT" name="teardown" finished-at="2025-05-16T16:33:06 EDT" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:02 EDT" name="setup" finished-at="2025-05-16T01:20:04 EDT" duration-ms="2304" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:06 EDT" name="setup" finished-at="2025-05-16T16:33:08 EDT" duration-ms="2089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:04 EDT" name="beforeMethod" finished-at="2025-05-16T01:20:14 EDT" duration-ms="9512" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:08 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:09 EDT" duration-ms="913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userEntersInvalidLogin(java.lang.String)[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:14 EDT" name="userEntersInvalidLogin" data-provider="errorMessageForLogin" finished-at="2025-05-16T01:20:15 EDT" duration-ms="980" status="PASS">
+        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:09 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T16:33:20 EDT" duration-ms="10505" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Invalid Username and Password]]>
+                <![CDATA[EmptyField]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{=, UserName=, Password=SeleniumProj@25}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Invalid')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6714f771ef446c01a500579fc808d7c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Invalid')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6714f771ef446c01a500579fc808d7c3
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at PageObject.LoginPageObject.invalidUserNameAndPassword(LoginPageObject.java:80)
+at dsAlgoTests.LoginPageTest.userEntersInvalidLogin(LoginPageTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersInvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:20 EDT" name="teardown" finished-at="2025-05-16T16:33:20 EDT" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:20 EDT" name="setup" finished-at="2025-05-16T16:33:23 EDT" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:23 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:24 EDT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:24 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T16:33:25 EDT" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidLogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userEntersInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:15 EDT" name="teardown" finished-at="2025-05-16T01:20:15 EDT" duration-ms="418" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:25 EDT" name="teardown" finished-at="2025-05-16T16:33:25 EDT" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:15 EDT" name="setup" finished-at="2025-05-16T01:20:19 EDT" duration-ms="3826" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:25 EDT" name="setup" finished-at="2025-05-16T16:33:28 EDT" duration-ms="2422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:19 EDT" name="beforeMethod" finished-at="2025-05-16T01:20:21 EDT" duration-ms="1651" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:28 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:29 EDT" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="userShouldSignInWithValidLogin()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:21 EDT" name="userShouldSignInWithValidLogin" finished-at="2025-05-16T01:20:22 EDT" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userShouldSignInWithValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:22 EDT" name="teardown" finished-at="2025-05-16T01:20:24 EDT" duration-ms="1375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:24 EDT" name="setup" finished-at="2025-05-16T01:20:26 EDT" duration-ms="1817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:26 EDT" name="beforeMethod" finished-at="2025-05-16T01:20:27 EDT" duration-ms="1164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userSignedIntoDsAlgo(java.lang.String)[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:27 EDT" name="userSignedIntoDsAlgo" data-provider="errorMessageForBlankField" finished-at="2025-05-16T01:20:27 EDT" duration-ms="392" status="PASS">
+        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:29 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T16:33:30 EDT" duration-ms="854" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Please fill out this field.]]>
+                <![CDATA[invalidLogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- userEntersInvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:30 EDT" name="teardown" finished-at="2025-05-16T16:33:30 EDT" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:30 EDT" name="setup" finished-at="2025-05-16T16:33:33 EDT" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:33 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:34 EDT" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userShouldSignInWithValidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:34 EDT" name="userShouldSignInWithValidLogin" data-provider="ValidloginDetails" finished-at="2025-05-16T16:33:35 EDT" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validLoginId]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{password=SeleniumProj@25, username=clubNinjas-Sdet207}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldSignInWithValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:35 EDT" name="teardown" finished-at="2025-05-16T16:33:35 EDT" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:35 EDT" name="setup" finished-at="2025-05-16T16:33:38 EDT" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:38 EDT" name="beforeMethod" finished-at="2025-05-16T16:33:39 EDT" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="userSignedIntoDsAlgo()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:39 EDT" name="userSignedIntoDsAlgo" finished-at="2025-05-16T16:33:39 EDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- userSignedIntoDsAlgo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@2bdd8394]" started-at="2025-05-16T01:20:27 EDT" name="teardown" finished-at="2025-05-16T01:20:28 EDT" duration-ms="747" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T16:33:39 EDT" name="teardown" finished-at="2025-05-16T16:33:39 EDT" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

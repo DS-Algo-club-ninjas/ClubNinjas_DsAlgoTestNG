@@ -8,7 +8,7 @@
           <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="teardown"/>
-          <include name="userShouldSignInWithValidLogin"/>
+          <include name="userEntersInvalidLogin" invocation-numbers="0"/>
         </methods>
       </class> <!-- dsAlgoTests.LoginPageTest -->
     </classes>

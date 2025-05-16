@@ -1,61 +1,91 @@
 package Utilities;
 
-import java.io.File;
-import java.io.FileInputStream;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+
+import java.io.*;
+import java.util.*;
 
 
 public class ExcelReader {
 	
+	 private XSSFSheet sheet;
+	 private XSSFWorkbook workbook;
+	 private FileInputStream fis;
+	
+	public ExcelReader(String sheetName) throws Exception {
+		  String path = System.getProperty("user.dir") + "/src/test/resources/TestData/DsAlgo_TestData.xlsx";
+	        fis = new FileInputStream(path);
+	        workbook = new XSSFWorkbook(fis);
+	        sheet = workbook.getSheet(sheetName);
+	        if (sheet == null) throw new IllegalArgumentException("Sheet not found: " + sheetName);
+	}
+	
+	// Returns credentials from a given row number
 	public String[] excelDataRead(String sheetName, int rowNumber) {
-		String path = System.getProperty("user.dir") + "/src/test/resources/TestData/DsAlgo_TestData.xlsx";
+
 		String[] credentials = new String[3];
-		File excelFile = new File(path);
 		try {
-		FileInputStream Fis = new FileInputStream(excelFile);
-		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
-		XSSFSheet sheet = workbook.getSheet(sheetName);
-
-		Row row = sheet.getRow(rowNumber);
-
-		String username = getCellValue(row, 0);
-		String password = getCellValue(row, 1);
-		String passwordConfirmation = getCellValue(row, 2);
-
-		workbook.close();
-		Fis.close();
-
 		
-		credentials[0] = username;
-		credentials[1] = password;
-		credentials[2] = passwordConfirmation;
-		}
-		catch (Exception e) {
-		e.printStackTrace();
-			}
-
-		return credentials;
+		    Row row = sheet.getRow(rowNumber);
+            credentials[0] = getCellValue(row, 0);
+            credentials[1] = getCellValue(row, 1);
+            credentials[2] = getCellValue(row, 2);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return credentials;
 		}
 	
+	//Helper: Safely gets string representation of a cell
 	private String getCellValue(Row row, int cellIndex) {
-		Cell cell = row.getCell(cellIndex);
-		if (cell == null || cell.getCellType() == CellType.BLANK) {
-			return "";
-		}
-		if (cell.getCellType() == CellType.NUMERIC) {
-			DataFormatter formatter = new DataFormatter();
-			String value = formatter.formatCellValue(cell);
-			return value;
-		}
-		if (cell.getCellType() == CellType.STRING) {
-			return cell.getStringCellValue();
-		}
-		return "";
+		 if (row == null) return "";
+	        Cell cell = row.getCell(cellIndex);
+	        DataFormatter formatter = new DataFormatter();
+	        return (cell != null) ? formatter.formatCellValue(cell).trim() : "";
 	}
+	
+	//Retrieves specific row of data on value in first column
+	    public Map<String, String> getRowDataByRowName(String scenario) {
+	        Map<String, String> rowData = new HashMap<>();
+	        DataFormatter formatter = new DataFormatter();
+	        Row header = sheet.getRow(0);
+	        if (header == null) return rowData;
 
+	        for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+	            Row currentRow = sheet.getRow(i);
+	            if (currentRow != null) {
+	                String rowKey = formatter.formatCellValue(currentRow.getCell(0)).trim();
+	                if (scenario.equalsIgnoreCase(rowKey)) {
+	                    for (int j = 1; j < currentRow.getLastCellNum(); j++) {
+	                        String key = formatter.formatCellValue(header.getCell(j)).trim();
+	                        String value = formatter.formatCellValue(currentRow.getCell(j)).trim();
+	                        rowData.put(key, value);
+	                    }
+	                    break;
+	                }
+	            }
+	        }
+	        return rowData;
+	    }
+	    
+	    // Get all row names from the first column (for data-driven loops)
+	    public List<String> getAllRowNames() {
+	        List<String> names = new ArrayList<>();
+	        DataFormatter formatter = new DataFormatter();
+	        for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+	            Row row = sheet.getRow(i);
+	            if (row != null) {
+	                String name = formatter.formatCellValue(row.getCell(0)).trim();
+	                if (!name.isEmpty()) names.add(name);
+	            }
+	        }
+	        return names;
+	    }
+
+	    // Optional: Clean up workbook when done
+	    public void close() throws IOException {
+	        workbook.close();
+	        fis.close();
+	    }
 }

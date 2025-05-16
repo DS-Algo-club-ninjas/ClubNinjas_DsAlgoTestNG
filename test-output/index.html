@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userEntersInvalidLogin(EmptyField, {=, UserName=, Password=SeleniumProj@25})">userEntersInvalidLogin(EmptyField, {=, UserName=, Password=SeleniumProj@25})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +117,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userClickSignOut(Logged out successfully)">userClickSignOut(Logged out successfully)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userClickSignOut(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})">userClickSignOut(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userEntersInvalidLogin(Invalid Username and Password)">userEntersInvalidLogin(Invalid Username and Password)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})">userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userShouldSignInWithValidLogin">userShouldSignInWithValidLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})">userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userSignedIntoDsAlgo(Please fill out this field.)">userSignedIntoDsAlgo(Please fill out this field.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userShouldSignInWithValidLogin(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})">userShouldSignInWithValidLogin(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgoTests.LoginPageTest" class="method navigator-link" hash-for-method="userSignedIntoDsAlgo">userSignedIntoDsAlgo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -133,6 +152,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dsAlgoTests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userEntersInvalidLogin(EmptyField, {=, UserName=, Password=SeleniumProj@25})">
+                  </a> <!-- userEntersInvalidLogin(EmptyField, {=, UserName=, Password=SeleniumProj@25}) -->
+                  <span class="method-name">userEntersInvalidLogin</span>
+                  <span class="parameters">(EmptyField,{=, UserName=, Password=SeleniumProj@25})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),&apos;Invalid&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6714f771ef446c01a500579fc808d7c3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.LoginPageObject.invalidUserNameAndPassword(LoginPageObject.java:80)
+	at dsAlgoTests.LoginPageTest.userEntersInvalidLogin(LoginPageTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -141,33 +189,41 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="userClickSignOut(Logged out successfully)">
-                  </a> <!-- userClickSignOut(Logged out successfully) -->
+                  <a name="userClickSignOut(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})">
+                  </a> <!-- userClickSignOut(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207}) -->
                   <span class="method-name">userClickSignOut</span>
-                  <span class="parameters">(Logged out successfully)</span>
+                  <span class="parameters">(validLoginId,{password=SeleniumProj@25, username=clubNinjas-Sdet207})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="userEntersInvalidLogin(Invalid Username and Password)">
-                  </a> <!-- userEntersInvalidLogin(Invalid Username and Password) -->
+                  <a name="userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})">
+                  </a> <!-- userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}) -->
                   <span class="method-name">userEntersInvalidLogin</span>
-                  <span class="parameters">(Invalid Username and Password)</span>
+                  <span class="parameters">(invalidLogin,{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="userShouldSignInWithValidLogin">
-                  </a> <!-- userShouldSignInWithValidLogin -->
+                  <a name="userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})">
+                  </a> <!-- userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}) -->
+                  <span class="method-name">userEntersInvalidLogin</span>
+                  <span class="parameters">(invalidLogin,{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldSignInWithValidLogin(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})">
+                  </a> <!-- userShouldSignInWithValidLogin(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207}) -->
                   <span class="method-name">userShouldSignInWithValidLogin</span>
+                  <span class="parameters">(validLoginId,{password=SeleniumProj@25, username=clubNinjas-Sdet207})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="userSignedIntoDsAlgo(Please fill out this field.)">
-                  </a> <!-- userSignedIntoDsAlgo(Please fill out this field.) -->
+                  <a name="userSignedIntoDsAlgo">
+                  </a> <!-- userSignedIntoDsAlgo -->
                   <span class="method-name">userSignedIntoDsAlgo</span>
-                  <span class="parameters">(Please fill out this field.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,6 +268,10 @@
               <span class="test-group-name">login</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">userClickSignOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">userShouldSignInWithValidLogin</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -232,28 +292,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'userClickSignOut')
+data.setCell(0, 1, 'userEntersInvalidLogin')
 data.setCell(0, 2, 'dsAlgoTests.LoginPageTest')
-data.setCell(0, 3, 3305);
+data.setCell(0, 3, 10505);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'userShouldSignInWithValidLogin')
+data.setCell(1, 1, 'userClickSignOut')
 data.setCell(1, 2, 'dsAlgoTests.LoginPageTest')
-data.setCell(1, 3, 1398);
+data.setCell(1, 3, 1674);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'userEntersInvalidLogin')
+data.setCell(2, 1, 'userShouldSignInWithValidLogin')
 data.setCell(2, 2, 'dsAlgoTests.LoginPageTest')
-data.setCell(2, 3, 980);
+data.setCell(2, 3, 1118);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'userSignedIntoDsAlgo')
+data.setCell(3, 1, 'userEntersInvalidLogin')
 data.setCell(3, 2, 'dsAlgoTests.LoginPageTest')
-data.setCell(3, 3, 392);
+data.setCell(3, 3, 854);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userEntersInvalidLogin')
+data.setCell(4, 2, 'dsAlgoTests.LoginPageTest')
+data.setCell(4, 3, 843);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userSignedIntoDsAlgo')
+data.setCell(5, 2, 'dsAlgoTests.LoginPageTest')
+data.setCell(5, 3, 140);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -286,63 +354,97 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">6211 ms</span>
+                <span class="method-start">4365 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">userClickSignOut(Logged out successfully)</span>
-                <span class="method-start">7486 ms</span>
+                <span class="method-name">userClickSignOut(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})</span>
+                <span class="method-start">5914 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10820 ms</span>
+                <span class="method-start">7602 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">11408 ms</span>
+                <span class="method-start">8050 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">13739 ms</span>
+                <span class="method-start">10145 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">userEntersInvalidLogin(Invalid Username and Password)</span>
-                <span class="method-start">23258 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userEntersInvalidLogin(EmptyField, {=, UserName=, Password=SeleniumProj@25})</span>
+                <span class="method-start">11061 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">24241 ms</span>
+                <span class="method-start">21604 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">24666 ms</span>
+                <span class="method-start">22250 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">28579 ms</span>
+                <span class="method-start">24808 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">userShouldSignInWithValidLogin</span>
-                <span class="method-start">30234 ms</span>
+                <span class="method-name">userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</span>
+                <span class="method-start">25845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">31639 ms</span>
+                <span class="method-start">26692 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">33023 ms</span>
+                <span class="method-start">27091 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">34843 ms</span>
+                <span class="method-start">29516 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">userSignedIntoDsAlgo(Please fill out this field.)</span>
-                <span class="method-start">36010 ms</span>
+                <span class="method-name">userEntersInvalidLogin(invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh})</span>
+                <span class="method-start">30685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">36407 ms</span>
+                <span class="method-start">31544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">34766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userShouldSignInWithValidLogin(validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207})</span>
+                <span class="method-start">35645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">36767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">39979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userSignedIntoDsAlgo</span>
+                <span class="method-start">40910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">41053 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
