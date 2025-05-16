@@ -58,3 +58,97 @@
 [INFO] 2025-05-16 01:20:25.545 [main] LoggerLoad - Initializing Browser
 [INFO] 2025-05-16 01:20:27.191 [main] LoggerLoad - Login button is displayed
 [INFO] 2025-05-16 01:20:28.327 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 14:50:52.594 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 14:50:57.057 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 14:50:59.327 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 14:50:59.711 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 14:55:28.342 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 14:55:30.526 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 14:55:32.510 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 14:55:32.860 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 15:28:09.417 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 15:28:12.981 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 15:28:15.177 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 15:28:16.073 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 15:28:16.367 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:01:59.943 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:02:05.476 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:02:11.232 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:02:11.238 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:02:12.608 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:02:15.114 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:02:15.294 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:02:16.609 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:02:18.770 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 16:02:19.777 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 16:02:20.090 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:02:20.096 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:02:21.230 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:02:23.492 [main] LoggerLoad - Login button is displayed
+[INFO] 2025-05-16 16:02:23.964 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:18:51.483 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:18:55.572 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:19:01.280 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:19:01.453 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:19:03.031 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:19:17.236 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:19:17.389 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:19:19.045 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:19:21.415 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 16:19:22.631 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 16:19:23.049 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:19:23.055 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:19:24.628 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:19:27.554 [main] LoggerLoad - Login button is displayed
+[INFO] 2025-05-16 16:19:28.175 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:25:28.217 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:25:32.416 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:25:37.231 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:25:37.478 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:25:38.897 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:25:41.782 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:25:41.907 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:25:43.349 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:25:46.232 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 16:25:47.418 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 16:25:47.768 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:25:47.775 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:25:49.148 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:25:51.615 [main] LoggerLoad - Login button is displayed
+[INFO] 2025-05-16 16:25:52.262 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:31:14.866 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:31:17.924 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:31:23.759 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:31:23.970 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:31:25.442 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:31:28.957 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:31:29.109 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:31:30.514 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:31:32.839 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 16:31:33.891 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 16:31:34.208 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:31:34.214 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:31:35.567 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:31:37.562 [main] LoggerLoad - Login button is displayed
+[INFO] 2025-05-16 16:31:38.039 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:32:58.530 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:01.588 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:06.412 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:33:06.560 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:07.950 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:20.757 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:33:20.761 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:22.137 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:25.596 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:33:25.602 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:27.044 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:30.558 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:33:30.726 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:32.135 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:34.161 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-16 16:33:35.272 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-16 16:33:35.717 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-16 16:33:35.724 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-16 16:33:37.085 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-16 16:33:39.424 [main] LoggerLoad - Login button is displayed
+[INFO] 2025-05-16 16:33:39.987 [main] LoggerLoad - Closing Browser

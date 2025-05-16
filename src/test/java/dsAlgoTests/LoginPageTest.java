@@ -3,9 +3,12 @@ package dsAlgoTests;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
 
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import DataProvider.DataProviders;
 import Hooks.Hooks;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
@@ -24,54 +27,57 @@ public class LoginPageTest  extends Hooks{
 		registerPageObj = new RegistrationPageObject();
 		homePageObj = new HomePageObject();
 		loginPageObj = new LoginPageObject();
-		readExcel = new ExcelReader();
-	
+			
 		homePageObj.clickGetStartedBtn();
 		loginPageObj.clickSignInLink();
 	}
 	
-	 @Test(groups = { "login" })
-	public void userShouldSignInWithValidLogin() {
+	 @Test(groups = { "login" },dataProvider = "ValidloginDetails", dataProviderClass = DataProviders.class)
+		public void userShouldSignInWithValidLogin(String scenario, Map<String, String> data) {
 		LoggerLoad.info("Launch page is displayed");
-		String sheetName = "valid_Login";
-		int rowNumber = 1 ;
 		
-		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
-		loginPageObj.enterUserNameTxtBox(credentials[0]);
-		loginPageObj.enterPasswordRegTxtBox(credentials[1]);
+		 System.out.println("Running test case: " + scenario);
+	        System.out.println("Username: " + data.get("username"));
+	        System.out.println("Password: " + data.get("password"));
+	       
+	        // Example usage:
+	        String username = data.get("username");
+	        String password = data.get("password");
+
+	        // Sanity checks
+	        Assert.assertNotNull(username, "Username is missing from data sheet.");
+	        Assert.assertNotNull(password, "Password is missing from data sheet.");
+		
+		loginPageObj.enterUserNameTxtBox(username);
+		loginPageObj.enterPasswordRegTxtBox(password);
 		loginPageObj.LoginBtnClick();
+		 // Validate login success
 		boolean isSignOutDisplayed = loginPageObj.signOutLinkDisplayed();
 		Assert.assertTrue(isSignOutDisplayed, "Sign Out link is not displayed, user may not be on Home page.");
 		LoggerLoad.info("Sign Out link is displayed successfully.");
 		
 		}
-	 @DataProvider (name = "LoggedOutMessage")
-		public Object[][] dpMethod(){
-			return new Object[][] {{"Logged out successfully"}};
-		}
-	  @Test (dataProvider = "LoggedOutMessage" )
-		public void userClickSignOut(String loggedOutMessage) {
-		  String sheetName = "valid_Login";
-			int rowNumber = 1 ;
+	 
+	 @Test(groups = { "login" },dataProvider = "ValidloginDetails", dataProviderClass = DataProviders.class)
+		public void userClickSignOut(String scenario, Map<String, String> data) {
+		 	String loggedOutMessage = "Logged out successfully";
+		    String username = data.get("username");
+	        String password = data.get("password");
 			
-			String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
-			loginPageObj.enterUserNameTxtBox(credentials[0]);
-			loginPageObj.enterPasswordRegTxtBox(credentials[1]);
+			loginPageObj.enterUserNameTxtBox(username);
+			loginPageObj.enterPasswordRegTxtBox(password);
 			loginPageObj.LoginBtnClick();
 			
 		 loginPageObj.clickSignOutLink();
 		 String actualMessage = loginPageObj.LoggedMessageSignOut();
-			Assert.assertEquals(actualMessage, loggedOutMessage,
+		Assert.assertEquals(actualMessage, loggedOutMessage,
 					"User was not redirected to home page with the correct logout message.");
 		}
-	 
-	  @DataProvider (name = "errorMessageForBlankField")
-		public Object[][] dpMethod1(){
-			return new Object[][] {{"Please fill out this field."}};
-		}
-	 @Test(dataProvider = "errorMessageForBlankField")
-		public void userSignedIntoDsAlgo(String message) {
+	 	 
+	 @Test()
+		public void userSignedIntoDsAlgo() {
 		 LoggerLoad.info("Login button is displayed");
+		 String message = "Please fill out this field.";
 		 loginPageObj.LoginBtnClick();
 		 String actualMessage = loginPageObj.getPopUpMessage();
 			Assert.assertEquals(actualMessage, message,
@@ -79,18 +85,17 @@ public class LoginPageTest  extends Hooks{
 		    			
 		}
 	 
-	 @DataProvider (name = "errorMessageForLogin")
-		public Object[][] dpMethod2(){
-			return new Object[][] {{"Invalid Username and Password"}};
-		}
-	 @Test(dataProvider = "errorMessageForLogin")
-		public void userEntersInvalidLogin(String errorMessage) {
+		 @Test(dataProvider = "inValidloginDetails", dataProviderClass = DataProviders.class)
+		public void userEntersInvalidLogin(String scenario, Map<String, String> data) {
+			 System.out.println("Print data" +data);
+		 String errorMessage = "Invalid Username and Password";
 		 System.out.println("Invalid Error:" +errorMessage);
-		 String sheetName = "Login";
-			int rowNumber = 3 ;
-		 String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
-			loginPageObj.enterUserNameTxtBox(credentials[0]);
-			loginPageObj.enterPasswordRegTxtBox(credentials[1]);
+		 String username = data.get("UserName");
+	     String password = data.get("Password");
+			
+			loginPageObj.enterUserNameTxtBox(username);
+			loginPageObj.enterPasswordRegTxtBox(password);
+			
 			loginPageObj.LoginBtnClick();
 			String actualMessage = loginPageObj.invalidUserNameAndPassword();
 			Assert.assertEquals(actualMessage, errorMessage,
