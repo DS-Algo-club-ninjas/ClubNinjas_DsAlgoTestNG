@@ -12,7 +12,7 @@ public class Hooks {
 	private static WebDriver driver;
 	ConfigFileReader configFileReader = new ConfigFileReader();
 
-	@BeforeClass
+	@BeforeMethod
 	public void setup() {
 		String browser = ConfigFileReader.getBrowser();//Should comment this line to execute without crossbrowser 
 		//String browser = CrossBrowserReader.getBrowserType();//Should Uncomment this line for Crossbrowser testing
@@ -26,7 +26,7 @@ public class Hooks {
 			throw new RuntimeException("Browser not defined");
 		}
 	}
-	@AfterClass
+	@AfterMethod
 	public static void teardown() throws Throwable {
 		driver = DriverFactory.getDriver();
 					
