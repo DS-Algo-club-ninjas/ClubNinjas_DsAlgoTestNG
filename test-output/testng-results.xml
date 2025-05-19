@@ -1,85 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="44" passed="37" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T23:40:28 EDT" name="Default suite" finished-at="2025-05-16T23:41:09 EDT" duration-ms="40139">
+  <suite started-at="2025-05-19T01:02:17 CDT" name="Suite" finished-at="2025-05-19T01:06:28 CDT" duration-ms="251517">
     <groups>
-      <group name="login">
-        <method signature="LoginPageTest.userClickSignOut(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" name="userClickSignOut" class="dsAlgoTests.LoginPageTest"/>
-        <method signature="LoginPageTest.userShouldSignInWithValidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" name="userShouldSignInWithValidLogin" class="dsAlgoTests.LoginPageTest"/>
-      </group> <!-- login -->
     </groups>
-    <test started-at="2025-05-16T23:40:28 EDT" name="Default test" finished-at="2025-05-16T23:41:09 EDT" duration-ms="40139">
-      <class name="dsAlgoTests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:30 EDT" name="setup" finished-at="2025-05-16T23:40:36 EDT" duration-ms="5745" status="PASS">
+    <test started-at="2025-05-19T01:02:17 CDT" name="Test" finished-at="2025-05-19T01:06:28 CDT" duration-ms="251517">
+      <class name="dsAlgoTests.ArrayPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:17 CDT" name="setup" finished-at="2025-05-19T01:02:21 CDT" duration-ms="3871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:36 EDT" name="beforeMethod" finished-at="2025-05-16T23:40:37 EDT" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:21 CDT" name="userInHomePage" finished-at="2025-05-19T01:02:24 CDT" duration-ms="3363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userClickSignOut(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:37 EDT" name="userClickSignOut" data-provider="ValidloginDetails" finished-at="2025-05-16T23:40:38 EDT" duration-ms="1706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[validLoginId]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{password=SeleniumProj@25, username=clubNinjas-Sdet207}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="findEvenNumberQtn()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:24 CDT" name="findEvenNumberQtn" finished-at="2025-05-19T01:02:27 CDT" duration-ms="3104" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userClickSignOut -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:38 EDT" name="teardown" finished-at="2025-05-16T23:40:39 EDT" duration-ms="289" status="PASS">
+        </test-method> <!-- findEvenNumberQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:27 CDT" name="teardown" finished-at="2025-05-19T01:02:28 CDT" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:39 EDT" name="setup" finished-at="2025-05-16T23:40:41 EDT" duration-ms="2379" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:28 CDT" name="setup" finished-at="2025-05-19T01:02:30 CDT" duration-ms="2009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:41 EDT" name="beforeMethod" finished-at="2025-05-16T23:40:42 EDT" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:30 CDT" name="userInHomePage" finished-at="2025-05-19T01:02:32 CDT" duration-ms="2241" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:42 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T23:40:52 EDT" duration-ms="10313" status="FAIL">
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysInPython(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:32 CDT" name="inValidCodeTryEditorArraysInPython" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:02:35 CDT" duration-ms="2789" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EmptyField]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[{=, UserName=, Password=SeleniumProj@25}]]>
+                <![CDATA[Error]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Invalid')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60399/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5574fc1c5ce3f912e19dd1b4d4c1a33b]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Invalid')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60399/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5574fc1c5ce3f912e19dd1b4d4c1a33b
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at PageObject.LoginPageObject.invalidUserNameAndPassword(LoginPageObject.java:80)
-at dsAlgoTests.LoginPageTest.userEntersInvalidLogin(LoginPageTest.java:100)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython(ArrayPageTest.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -90,7 +65,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -108,115 +83,1379 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userEntersInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:52 EDT" name="teardown" finished-at="2025-05-16T23:40:53 EDT" duration-ms="619" status="PASS">
+        </test-method> <!-- inValidCodeTryEditorArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:35 CDT" name="teardown" finished-at="2025-05-19T01:02:36 CDT" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:53 EDT" name="setup" finished-at="2025-05-16T23:40:55 EDT" duration-ms="2343" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:36 CDT" name="setup" finished-at="2025-05-19T01:02:38 CDT" duration-ms="2638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:55 EDT" name="beforeMethod" finished-at="2025-05-16T23:40:56 EDT" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:38 CDT" name="userInHomePage" finished-at="2025-05-19T01:02:41 CDT" duration-ms="2384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:56 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T23:40:57 EDT" duration-ms="676" status="PASS">
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysInPython(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:41 CDT" name="inValidCodeTryEditorArraysInPython" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:02:43 CDT" duration-ms="2697" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[invalidLogin]]>
+                <![CDATA[print("Hello, World!"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}]]>
+                <![CDATA[SyntaxError]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userEntersInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:57 EDT" name="teardown" finished-at="2025-05-16T23:40:57 EDT" duration-ms="213" status="PASS">
+        </test-method> <!-- inValidCodeTryEditorArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:43 CDT" name="teardown" finished-at="2025-05-19T01:02:44 CDT" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:57 EDT" name="setup" finished-at="2025-05-16T23:40:59 EDT" duration-ms="2324" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:44 CDT" name="setup" finished-at="2025-05-19T01:02:46 CDT" duration-ms="2058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:40:59 EDT" name="beforeMethod" finished-at="2025-05-16T23:41:00 EDT" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:46 CDT" name="userInHomePage" finished-at="2025-05-19T01:02:48 CDT" duration-ms="2440" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userEntersInvalidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:00 EDT" name="userEntersInvalidLogin" data-provider="inValidloginDetails" finished-at="2025-05-16T23:41:00 EDT" duration-ms="581" status="PASS">
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysInPython(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:48 CDT" name="inValidCodeTryEditorArraysInPython" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:02:51 CDT" duration-ms="2971" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[invalidLogin]]>
+                <![CDATA[prin("Hello, World!")]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[{=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}]]>
+                <![CDATA[NameError]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userEntersInvalidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:00 EDT" name="teardown" finished-at="2025-05-16T23:41:01 EDT" duration-ms="242" status="PASS">
+        </test-method> <!-- inValidCodeTryEditorArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:51 CDT" name="teardown" finished-at="2025-05-19T01:02:52 CDT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:01 EDT" name="setup" finished-at="2025-05-16T23:41:03 EDT" duration-ms="2360" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:52 CDT" name="setup" finished-at="2025-05-19T01:02:54 CDT" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:03 EDT" name="beforeMethod" finished-at="2025-05-16T23:41:04 EDT" duration-ms="812" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:54 CDT" name="userInHomePage" finished-at="2025-05-19T01:02:57 CDT" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userShouldSignInWithValidLogin(java.lang.String,java.util.Map)[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:04 EDT" name="userShouldSignInWithValidLogin" data-provider="ValidloginDetails" finished-at="2025-05-16T23:41:05 EDT" duration-ms="924" status="PASS">
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysUsingList(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:57 CDT" name="inValidCodeTryEditorArraysUsingList" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:02:59 CDT" duration-ms="2447" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[validLoginId]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[{password=SeleniumProj@25, username=clubNinjas-Sdet207}]]>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList(ArrayPageTest.java:404)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:02:59 CDT" name="teardown" finished-at="2025-05-19T01:03:00 CDT" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:00 CDT" name="setup" finished-at="2025-05-19T01:03:02 CDT" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:02 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:05 CDT" duration-ms="2573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysUsingList(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:05 CDT" name="inValidCodeTryEditorArraysUsingList" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:07 CDT" duration-ms="1696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userShouldSignInWithValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:05 EDT" name="teardown" finished-at="2025-05-16T23:41:05 EDT" duration-ms="196" status="PASS">
+        </test-method> <!-- inValidCodeTryEditorArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:07 CDT" name="teardown" finished-at="2025-05-19T01:03:07 CDT" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:05 EDT" name="setup" finished-at="2025-05-16T23:41:07 EDT" duration-ms="2283" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:07 CDT" name="setup" finished-at="2025-05-19T01:03:10 CDT" duration-ms="2557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:07 EDT" name="beforeMethod" finished-at="2025-05-16T23:41:08 EDT" duration-ms="815" status="PASS">
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:10 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:11 CDT" duration-ms="1595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="userSignedIntoDsAlgo()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:08 EDT" name="userSignedIntoDsAlgo" finished-at="2025-05-16T23:41:08 EDT" duration-ms="174" status="PASS">
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorArraysUsingList(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:11 CDT" name="inValidCodeTryEditorArraysUsingList" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:13 CDT" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignedIntoDsAlgo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.LoginPageTest@3e78b6a5]" started-at="2025-05-16T23:41:08 EDT" name="teardown" finished-at="2025-05-16T23:41:09 EDT" duration-ms="238" status="PASS">
+        </test-method> <!-- inValidCodeTryEditorArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:13 CDT" name="teardown" finished-at="2025-05-19T01:03:13 CDT" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- dsAlgoTests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:13 CDT" name="setup" finished-at="2025-05-19T01:03:15 CDT" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:15 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:16 CDT" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="maxConOnesQtn()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:16 CDT" name="maxConOnesQtn" finished-at="2025-05-19T01:03:18 CDT" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxConOnesQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:18 CDT" name="teardown" finished-at="2025-05-19T01:03:18 CDT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:18 CDT" name="setup" finished-at="2025-05-19T01:03:19 CDT" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:19 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:21 CDT" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="practiseQtnsArraysInPython()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:21 CDT" name="practiseQtnsArraysInPython" finished-at="2025-05-19T01:03:22 CDT" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseQtnsArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:22 CDT" name="teardown" finished-at="2025-05-19T01:03:22 CDT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:22 CDT" name="setup" finished-at="2025-05-19T01:03:23 CDT" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:23 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:24 CDT" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="practiseQtnsArraysUsingList()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:24 CDT" name="practiseQtnsArraysUsingList" finished-at="2025-05-19T01:03:26 CDT" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseQtnsArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:26 CDT" name="teardown" finished-at="2025-05-19T01:03:26 CDT" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:26 CDT" name="setup" finished-at="2025-05-19T01:03:27 CDT" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:27 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:29 CDT" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:29 CDT" name="runInvalidCodeFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:30 CDT" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:30 CDT" name="teardown" finished-at="2025-05-19T01:03:31 CDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:31 CDT" name="setup" finished-at="2025-05-19T01:03:32 CDT" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:32 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:33 CDT" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:33 CDT" name="runInvalidCodeFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:35 CDT" duration-ms="2076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:35 CDT" name="teardown" finished-at="2025-05-19T01:03:36 CDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:36 CDT" name="setup" finished-at="2025-05-19T01:03:37 CDT" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:37 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:39 CDT" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:39 CDT" name="runInvalidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:40 CDT" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:40 CDT" name="teardown" finished-at="2025-05-19T01:03:40 CDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:40 CDT" name="setup" finished-at="2025-05-19T01:03:42 CDT" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:42 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:43 CDT" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:43 CDT" name="runInvalidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:45 CDT" duration-ms="2174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:45 CDT" name="teardown" finished-at="2025-05-19T01:03:45 CDT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:45 CDT" name="setup" finished-at="2025-05-19T01:03:47 CDT" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:47 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:48 CDT" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:48 CDT" name="runInvalidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:50 CDT" duration-ms="1575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:50 CDT" name="teardown" finished-at="2025-05-19T01:03:50 CDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:50 CDT" name="setup" finished-at="2025-05-19T01:03:51 CDT" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:51 CDT" name="userInHomePage" finished-at="2025-05-19T01:03:54 CDT" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:54 CDT" name="runInvalidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:03:56 CDT" duration-ms="1718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:56 CDT" name="teardown" finished-at="2025-05-19T01:03:56 CDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:56 CDT" name="setup" finished-at="2025-05-19T01:03:57 CDT" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:03:57 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:00 CDT" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:00 CDT" name="runInvalidCodeSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:01 CDT" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:01 CDT" name="teardown" finished-at="2025-05-19T01:04:02 CDT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:02 CDT" name="setup" finished-at="2025-05-19T01:04:03 CDT" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:03 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:05 CDT" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runInvalidCodeSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:05 CDT" name="runInvalidCodeSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:06 CDT" duration-ms="1787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInvalidCodeSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:06 CDT" name="teardown" finished-at="2025-05-19T01:04:07 CDT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:07 CDT" name="setup" finished-at="2025-05-19T01:04:08 CDT" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:08 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:10 CDT" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runValidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:10 CDT" name="runValidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:12 CDT" duration-ms="1767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def findMaxConsecutiveOnes(nums) :
+count = 0
+result = 0
+for i in range(0, len(nums)):
+if (nums[i] == 0):
+count = 0
+else:
+count+= 1
+result = max(result, count)
+print(result)
+
+findMaxConsecutiveOnes([1,1,0,1,1,1])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runValidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:12 CDT" name="teardown" finished-at="2025-05-19T01:04:12 CDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:12 CDT" name="setup" finished-at="2025-05-19T01:04:13 CDT" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:13 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:17 CDT" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runValidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:17 CDT" name="runValidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:21 CDT" duration-ms="4302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def search(input_list, num): 
+    if (num in input_list):
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90] , 12)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Element Found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runValidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:21 CDT" name="teardown" finished-at="2025-05-19T01:04:21 CDT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:22 CDT" name="setup" finished-at="2025-05-19T01:04:23 CDT" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:23 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:24 CDT" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runValidFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:24 CDT" name="runValidFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:26 CDT" duration-ms="1626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def findNumbers(nums):
+c=0
+for i in nums:
+j=str(i)
+x=len(j)
+if x%2==0:
+c=c+1
+print(c)
+return c
+findNumbers([12,345,2,6,7896])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runValidFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:26 CDT" name="teardown" finished-at="2025-05-19T01:04:26 CDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:26 CDT" name="setup" finished-at="2025-05-19T01:04:27 CDT" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:27 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:29 CDT" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="runValidSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:29 CDT" name="runValidSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:31 CDT" duration-ms="1739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def sortedSquares(nums):
+squares_list = []
+for i in range(0, len(nums)):
+square = nums[i] * nums[i];
+squares_list.append(square)
+sorted_squares_list = sorted(squares_list)
+print sorted_squares_list;
+return sorted_squares_list;
+
+sortedSquares([-4,-1,0,3,10])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[0, 1, 9, 16, 100]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runValidSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:31 CDT" name="teardown" finished-at="2025-05-19T01:04:31 CDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:31 CDT" name="setup" finished-at="2025-05-19T01:04:32 CDT" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:32 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:34 CDT" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="searchTheArrayQtn()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:34 CDT" name="searchTheArrayQtn" finished-at="2025-05-19T01:04:35 CDT" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTheArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:35 CDT" name="teardown" finished-at="2025-05-19T01:04:35 CDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:35 CDT" name="setup" finished-at="2025-05-19T01:04:37 CDT" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:37 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:38 CDT" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="sqrsOfSortedArrayQtn()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:38 CDT" name="sqrsOfSortedArrayQtn" finished-at="2025-05-19T01:04:40 CDT" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:40 CDT" name="teardown" finished-at="2025-05-19T01:04:40 CDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:40 CDT" name="setup" finished-at="2025-05-19T01:04:43 CDT" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:43 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:44 CDT" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:44 CDT" name="submitInvalidCodeFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:46 CDT" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:46 CDT" name="teardown" finished-at="2025-05-19T01:04:47 CDT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:47 CDT" name="setup" finished-at="2025-05-19T01:04:48 CDT" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:48 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:49 CDT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:49 CDT" name="submitInvalidCodeFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:52 CDT" duration-ms="2562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:52 CDT" name="teardown" finished-at="2025-05-19T01:04:52 CDT" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:52 CDT" name="setup" finished-at="2025-05-19T01:04:54 CDT" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:54 CDT" name="userInHomePage" finished-at="2025-05-19T01:04:55 CDT" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:55 CDT" name="submitInvalidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:04:57 CDT" duration-ms="2400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:57 CDT" name="teardown" finished-at="2025-05-19T01:04:58 CDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:58 CDT" name="setup" finished-at="2025-05-19T01:04:59 CDT" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:04:59 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:00 CDT" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:00 CDT" name="submitInvalidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:03 CDT" duration-ms="2364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:03 CDT" name="teardown" finished-at="2025-05-19T01:05:03 CDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:03 CDT" name="setup" finished-at="2025-05-19T01:05:04 CDT" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:04 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:06 CDT" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:06 CDT" name="submitInvalidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:08 CDT" duration-ms="2266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:08 CDT" name="teardown" finished-at="2025-05-19T01:05:08 CDT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:08 CDT" name="setup" finished-at="2025-05-19T01:05:10 CDT" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:10 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:11 CDT" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:11 CDT" name="submitInvalidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:13 CDT" duration-ms="2243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:13 CDT" name="teardown" finished-at="2025-05-19T01:05:14 CDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:14 CDT" name="setup" finished-at="2025-05-19T01:05:15 CDT" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:15 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:17 CDT" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:17 CDT" name="submitInvalidCodeSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:19 CDT" duration-ms="2224" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error occurred during submission] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:19 CDT" name="teardown" finished-at="2025-05-19T01:05:19 CDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:19 CDT" name="setup" finished-at="2025-05-19T01:05:20 CDT" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:20 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:22 CDT" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitInvalidCodeSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:22 CDT" name="submitInvalidCodeSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:24 CDT" duration-ms="2324" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error occurred during submission]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error occurred during submission] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidCodeSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:24 CDT" name="teardown" finished-at="2025-05-19T01:05:24 CDT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:24 CDT" name="setup" finished-at="2025-05-19T01:05:28 CDT" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:28 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:29 CDT" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitValidCodeFindEvenNumber(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:29 CDT" name="submitValidCodeFindEvenNumber" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:31 CDT" duration-ms="2181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def findNumbers(nums):
+c=0
+for i in nums:
+j=str(i)
+x=len(j)
+if x%2==0:
+c=c+1
+print(c)
+return c
+findNumbers([12,345,2,6,7896])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Submission Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidCodeFindEvenNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:31 CDT" name="teardown" finished-at="2025-05-19T01:05:31 CDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:31 CDT" name="setup" finished-at="2025-05-19T01:05:33 CDT" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:33 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:34 CDT" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitValidCodeMaxConOnes(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:34 CDT" name="submitValidCodeMaxConOnes" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:36 CDT" duration-ms="2275" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def findMaxConsecutiveOnes(nums) :
+count = 0
+result = 0
+for i in range(0, len(nums)):
+if (nums[i] == 0):
+count = 0
+else:
+count+= 1
+result = max(result, count)
+print(result)
+
+findMaxConsecutiveOnes([1,1,0,1,1,1])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Submission Successful]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ Some Tests failed. Please review code]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at dsAlgoTests.ArrayPageTest.submitValidCodeMaxConOnes(ArrayPageTest.java:258)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidCodeMaxConOnes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:36 CDT" name="teardown" finished-at="2025-05-19T01:05:37 CDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:37 CDT" name="setup" finished-at="2025-05-19T01:05:38 CDT" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:38 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:39 CDT" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitValidCodeSearchTheArray(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:39 CDT" name="submitValidCodeSearchTheArray" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:42 CDT" duration-ms="2236" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def search(input_list, num): 
+    if (num in input_list):
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90] , 12)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Submission Successful]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ Some Tests failed. Please review code]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at dsAlgoTests.ArrayPageTest.submitValidCodeSearchTheArray(ArrayPageTest.java:200)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidCodeSearchTheArray -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:42 CDT" name="teardown" finished-at="2025-05-19T01:05:42 CDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:42 CDT" name="setup" finished-at="2025-05-19T01:05:43 CDT" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:43 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:45 CDT" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="submitValidCodeSqrsOfSortedArrayQtn(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:45 CDT" name="submitValidCodeSqrsOfSortedArrayQtn" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:05:47 CDT" duration-ms="2313" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def sortedSquares(nums):
+squares_list = []
+for i in range(0, len(nums)):
+square = nums[i] * nums[i];
+squares_list.append(square)
+sorted_squares_list = sorted(squares_list)
+print sorted_squares_list;
+return sorted_squares_list;
+
+sortedSquares([-4,-1,0,3,10])]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Submission Successful]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at dsAlgoTests.ArrayPageTest.submitValidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:374)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidCodeSqrsOfSortedArrayQtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:47 CDT" name="teardown" finished-at="2025-05-19T01:05:47 CDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:47 CDT" name="setup" finished-at="2025-05-19T01:05:49 CDT" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:49 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:50 CDT" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInArraysInPython()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:50 CDT" name="userInArraysInPython" finished-at="2025-05-19T01:05:51 CDT" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:51 CDT" name="teardown" finished-at="2025-05-19T01:05:51 CDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:51 CDT" name="setup" finished-at="2025-05-19T01:05:53 CDT" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:53 CDT" name="userInHomePage" finished-at="2025-05-19T01:05:55 CDT" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInArraysUsingList()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:55 CDT" name="userInArraysUsingList" finished-at="2025-05-19T01:05:56 CDT" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:56 CDT" name="teardown" finished-at="2025-05-19T01:05:56 CDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:05:56 CDT" name="setup" finished-at="2025-05-19T01:06:00 CDT" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:00 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:01 CDT" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInDropDownArrayPage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:01 CDT" name="userInDropDownArrayPage" finished-at="2025-05-19T01:06:01 CDT" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInDropDownArrayPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:01 CDT" name="teardown" finished-at="2025-05-19T01:06:02 CDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:02 CDT" name="setup" finished-at="2025-05-19T01:06:03 CDT" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:03 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:04 CDT" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInGetStartedArrayPage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:04 CDT" name="userInGetStartedArrayPage" finished-at="2025-05-19T01:06:05 CDT" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInGetStartedArrayPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:05 CDT" name="teardown" finished-at="2025-05-19T01:06:05 CDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:05 CDT" name="setup" finished-at="2025-05-19T01:06:06 CDT" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:06 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:08 CDT" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInTryEditorArraysInPython()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:08 CDT" name="userInTryEditorArraysInPython" finished-at="2025-05-19T01:06:10 CDT" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInTryEditorArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:10 CDT" name="teardown" finished-at="2025-05-19T01:06:10 CDT" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:10 CDT" name="setup" finished-at="2025-05-19T01:06:11 CDT" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:11 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:13 CDT" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInTryEditorArraysUsingList()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:13 CDT" name="userInTryEditorArraysUsingList" finished-at="2025-05-19T01:06:14 CDT" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInTryEditorArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:14 CDT" name="teardown" finished-at="2025-05-19T01:06:14 CDT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:14 CDT" name="setup" finished-at="2025-05-19T01:06:16 CDT" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:16 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:17 CDT" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="validCodeTryEditorArraysInPython(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:17 CDT" name="validCodeTryEditorArraysInPython" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:06:19 CDT" duration-ms="1532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCodeTryEditorArraysInPython -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:19 CDT" name="teardown" finished-at="2025-05-19T01:06:19 CDT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:19 CDT" name="setup" finished-at="2025-05-19T01:06:20 CDT" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:20 CDT" name="userInHomePage" finished-at="2025-05-19T01:06:22 CDT" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="validCodeTryEditorArraysUsingList(java.lang.String,java.lang.String)[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:22 CDT" name="validCodeTryEditorArraysUsingList" data-provider="CodeTryEditorArray" finished-at="2025-05-19T01:06:28 CDT" duration-ms="6207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCodeTryEditorArraysUsingList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.ArrayPageTest@34158c08]" started-at="2025-05-19T01:06:28 CDT" name="teardown" finished-at="2025-05-19T01:06:28 CDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgoTests.ArrayPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
