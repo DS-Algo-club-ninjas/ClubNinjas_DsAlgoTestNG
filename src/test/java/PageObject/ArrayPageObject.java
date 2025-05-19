@@ -14,6 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class ArrayPageObject {	
 	WebDriver driver= DriverFactory.getDriver();
@@ -192,17 +193,17 @@ public class ArrayPageObject {
 		return output;
 	}
 	
-	public String acceptAlert(String errorMsg) {
+	public String acceptAlert() {
 		String alertMsg = "";
 		try {
 			Alert alert = driver.switchTo().alert();
 			alertMsg = alert.getText();
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			e.printStackTrace();
+			LoggerLoad.error("No Alert Present");
 		}
 		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
 		return alertMsg;
 	}
