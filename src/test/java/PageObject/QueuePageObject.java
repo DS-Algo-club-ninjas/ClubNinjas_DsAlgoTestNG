@@ -1,6 +1,7 @@
 package PageObject;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -14,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class QueuePageObject {
 	
@@ -26,6 +28,8 @@ public class QueuePageObject {
 	By implUsingCollections_link = By.linkText("Implementation using collections.deque");
 	By implUsingArray_link = By.linkText("Implementation using array");
 	By queueOperation_link = By.linkText("Queue Operations");
+	By practiceQns_link = By.linkText("Practice Questions");
+	By practiceQns_available = By.xpath("//div[@class='list-group']");
 	By tryHere_btn = By.linkText("Try here>>>");
 	By run_btn = By.xpath("//button");
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
@@ -67,6 +71,23 @@ public class QueuePageObject {
 		driver.findElement(tryHere_btn).click();
 	}
 	
+	public void click_tryHereRun_btn() {
+		driver.findElement(run_btn).click();
+	}
+	
+	public void click_practiceQns_link() {
+		driver.findElement(practiceQns_link).click();
+	}
+	
+	public boolean check_practiecQtns_avail() {
+		List<WebElement> elements = driver.findElements(practiceQns_available);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+	
 	public void enterCodeTryEditor(String pythonCode) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		JavascriptExecutor js = (JavascriptExecutor)driver;		
@@ -85,7 +106,7 @@ public class QueuePageObject {
 		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
 		    	}
 		    	catch (Exception e1) {
-		    		e1.printStackTrace();
+		    		LoggerLoad.error("Exception " +e1+ " while tring to enter code in editor");
 		    	}
 		    }
 		}
@@ -99,22 +120,22 @@ public class QueuePageObject {
 		output = driver.findElement(tryHereEditor_output).getText();
 		}
 		catch (Exception e) {
-			e.printStackTrace();
+			LoggerLoad.error("Exception " +e+ " in TryHere Editor Output");
 		}
 		return output;
 	}
 	
-	public String acceptAlert(String errorMsg) {
+	public String acceptAlert() {
 		String alertMsg = "";
 		try {
 			Alert alert = driver.switchTo().alert();
 			alertMsg = alert.getText();
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			e.printStackTrace();
+			LoggerLoad.error("NoAlertPresentException Exception");;
 		}
 		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
 		return alertMsg;
 	}
