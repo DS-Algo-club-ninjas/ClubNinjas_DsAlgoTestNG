@@ -3,7 +3,9 @@ import static org.testng.Assert.assertEquals;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
+import DataProvider.DataProviders;
 import Hooks.Hooks;
 
 import PageObject.HomePageObject;
@@ -17,51 +19,89 @@ public class HomePageTests extends Hooks {
 		HomePageObject homePageObj;
 		LoginPageObject loginPageObj;
 		ExcelReader readExcel;
+		
 		@BeforeMethod
-		public void beforeMethod() {
+		public void userInDsAlgoPage() {
 			registerPageObj = new RegistrationPageObject();
 			homePageObj = new HomePageObject();
 			loginPageObj = new LoginPageObject();
 				
 			homePageObj.clickGetStartedBtn();
-			loginPageObj.clickSignInLink();
+			Assert.assertEquals(homePageObj.dataStructuresDrpDwnDisplayed(), true);
 		}
+			
 		
-		
-		public void userShouldNavigatetoHomepage() {
-		    Assert.assertEquals(homePageObj.dataStructuresDrpDwnDisplayed(), true);
-		   }
-		
-		public void userClicksOnDataStructuresDropdown() {
-		    homePageObj.dataStructuresDrpDwnClick();
-		}
-		public void userClicksArrayDropdownWithoutSignIn() {
+		@Test(groups = { "login" },dataProvider = "DataStructureOptionsWithoutSignIn", dataProviderClass = DataProviders.class)
+		public void VerifyWarningMsgOnDrpdwnClick(String dataStructures) {
+			
 			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.arrayDrpDwnClick();
+			
+			switch(dataStructures){
+				case "Arrays":
+				homePageObj.arrayDrpDwnClick();	
+					break;
+				case "Linked List":
+					homePageObj.linkedListDrpDwnClick();
+					break;
+				case "Stack":
+					homePageObj.stackDrpDwnClick();
+					break;
+				case "Queue":
+					homePageObj.queueDrpDwnClick();
+					break;
+				case "Tree":
+					homePageObj.treeDrpDwnClick();
+					break;
+				case "Graph":
+					homePageObj.graphDrpDwnClick();
+					 break;
+		        default:
+		            Assert.fail("Unexpected dropdown option: " + dataStructures);
+			}
+				
 			 String homeText = homePageObj.getHomeLogInMsg();
 			    assertEquals("You are not logged in", homeText);
-		   }
-		
-		public void userClicksAllDropdownsWithoutSignIn() {
+		}
+		@Test(groups = { "login" },dataProvider = "DataStructureOptionsWithoutSignIn", dataProviderClass = DataProviders.class)
+		public void VerifyWarningMsgOnGetStartedBtnClick(String dataStructures) {
+			
 			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.linkedListDrpDwnClick();
-			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.stackDrpDwnClick();
-			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.queueDrpDwnClick();
-			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.treeDrpDwnClick();
-			homePageObj.dataStructuresDrpDwnClick();
-			homePageObj.graphDrpDwnClick();
-			homePageObj.arrayDrpDwnClick();
+			
+			switch(dataStructures){
+			case "Data Structures-Introduction":
+				homePageObj.dataStructuresGetStartedBtnClick();	
+					break;
+				case "Arrays":
+				homePageObj.arrayGetStartedBtnClick();	
+					break;
+				case "Linked List":
+					homePageObj.linkedListGetStartedBtnClick();
+					break;
+				case "Stack":
+					homePageObj.stackGetStartedBtnClick();
+					break;
+				case "Queue":
+					homePageObj.queueGetStartedBtnClick();
+					break;
+				case "Tree":
+					homePageObj.treeGetStartedBtnClick();
+					break;
+				case "Graph":
+					homePageObj.graphGetStartedBtnClick();
+					 break;
+		        default:
+		            Assert.fail("Unexpected dropdown option: " + dataStructures);
+			}
+				
 			 String homeText = homePageObj.getHomeLogInMsg();
-			    assertEquals("You are not logged in", homeText);
+			 assertEquals("You are not logged in", homeText);
 		}
 		
-		public void userIsInHomePage() {
+		 @Test()
+		public void userIsInlaunchPage() {
 			homePageObj.randomClickMethod();
 			String currentUrl = homePageObj.launchURL();
-			String expectedUrl = "https://dsportalapp.herokuapp.com/home";
+			String expectedUrl = "https://dsportalapp.herokuapp.com/";
 			Assert.assertEquals(currentUrl, expectedUrl);
 		}
 }

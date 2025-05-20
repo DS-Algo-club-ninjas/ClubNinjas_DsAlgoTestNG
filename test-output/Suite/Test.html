@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>37/7/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 19 01:02:17 CDT 2025</td>
+<td>Started on:</td><td>Mon May 19 16:41:52 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>251 seconds (251517 ms)</td>
+<tr><td>Total time:</td><td>50 seconds (50064 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.submitValidCodeMaxConOnes()'><b>submitValidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def findMaxConsecutiveOnes(nums) :
-	count = 0
-	result = 0
-	for i in range(0, len(nums)):
-		if (nums[i] == 0):
-			count = 0
-		else:
-			count+= 1
-			result = max(result, count)
-	print(result)
-
-findMaxConsecutiveOnes([1,1,0,1,1,1]), Submission Successful</td>
-<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
-	at dsAlgoTests.ArrayPageTest.submitValidCodeMaxConOnes(ArrayPageTest.java:258)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1781342061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1781342061'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at dsAlgoTests.ArrayPageTest.submitValidCodeMaxConOnes(ArrayPageTest.java:258)
+<td title='dsAlgoTests.LoginPageTest.userEntersInvalidLogin()'><b>userEntersInvalidLogin</b><br>Test class: dsAlgoTests.LoginPageTest<br>Parameters: EmptyField, {=, UserName=, Password=SeleniumProj@25}</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),&apos;Invalid&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52416/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9db45086f805f234a310609b97f583d1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.LoginPageObject.invalidUserNameAndPassword(LoginPageObject.java:80)
+	at dsAlgoTests.LoginPageTest.userEntersInvalidLogin(LoginPageTest.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace971936990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace971936990'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),&apos;Invalid&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52416/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9db45086f805f234a310609b97f583d1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.LoginPageObject.invalidUserNameAndPassword(LoginPageObject.java:80)
+	at dsAlgoTests.LoginPageTest.userEntersInvalidLogin(LoginPageTest.java:100)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -110,7 +109,7 @@ findMaxConsecutiveOnes([1,1,0,1,1,1]), Submission Successful</td>
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -127,277 +126,8 @@ findMaxConsecutiveOnes([1,1,0,1,1,1]), Submission Successful</td>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitValidCodeSearchTheArray()'><b>submitValidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def search(input_list, num): 
-    if (num in input_list):
-        print("Element Found")
-    else:
-        print("Not Found")
-
-search([12, 23, 45, 67, 6, 90] , 12), Submission Successful</td>
-<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
-	at dsAlgoTests.ArrayPageTest.submitValidCodeSearchTheArray(ArrayPageTest.java:200)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace848940191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace848940191'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at dsAlgoTests.ArrayPageTest.submitValidCodeSearchTheArray(ArrayPageTest.java:200)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn()'><b>submitInvalidCodeSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Error occurred during submission</td>
-<td><div><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
-	at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace955381449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace955381449'><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitValidCodeSqrsOfSortedArrayQtn()'><b>submitValidCodeSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def sortedSquares(nums):
-	squares_list = []
-	for i in range(0, len(nums)):
-		square = nums[i] * nums[i];
-		squares_list.append(square)
-	sorted_squares_list = sorted(squares_list)
-	print sorted_squares_list;
-	return sorted_squares_list;
-
-sortedSquares([-4,-1,0,3,10]), Submission Successful</td>
-<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
-	at dsAlgoTests.ArrayPageTest.submitValidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:374)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1929836127", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1929836127'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at dsAlgoTests.ArrayPageTest.submitValidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:374)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn()'><b>submitInvalidCodeSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", Error occurred during submission</td>
-<td><div><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
-	at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace54287552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace54287552'><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at dsAlgoTests.ArrayPageTest.submitInvalidCodeSqrsOfSortedArrayQtn(ArrayPageTest.java:362)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython()'><b>inValidCodeTryEditorArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: , Error</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython(ArrayPageTest.java:120)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1731406622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1731406622'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython(ArrayPageTest.java:120)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList()'><b>inValidCodeTryEditorArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: , Error</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList(ArrayPageTest.java:404)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace478468106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace478468106'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList(ArrayPageTest.java:404)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>10</td>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -408,234 +138,30 @@ sortedSquares([-4,-1,0,3,10]), Submission Successful</td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeFindEvenNumber()'><b>runInvalidCodeFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInGetStartedArrayPage()'><b>userInGetStartedArrayPage</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
+<td title='dsAlgoTests.LoginPageTest.userEntersInvalidLogin()'><b>userEntersInvalidLogin</b><br>Test class: dsAlgoTests.LoginPageTest<br>Parameters: invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}</td>
 <td></td>
 <td>0</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython()'><b>inValidCodeTryEditorArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runValidCodeSearchTheArray()'><b>runValidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def search(input_list, num): 
-    if (num in input_list):
-        print("Element Found")
-    else:
-        print("Not Found")
-
-search([12, 23, 45, 67, 6, 90] , 12), Element Found</td>
-<td></td>
-<td>4</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.maxConOnesQtn()'><b>maxConOnesQtn</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
+<td title='dsAlgoTests.LoginPageTest.userClickSignOut()'><b>userClickSignOut</b><br>Test class: dsAlgoTests.LoginPageTest<br>Parameters: validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207}</td>
 <td></td>
 <td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.submitValidCodeFindEvenNumber()'><b>submitValidCodeFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def findNumbers(nums):
-	c=0
-	for i in nums:
-		j=str(i)
-		x=len(j)
-		if x%2==0:
-			c=c+1
-	print(c)
-	return c
-findNumbers([12,345,2,6,7896]), Submission Successful</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInArraysInPython()'><b>userInArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
+<td title='dsAlgoTests.LoginPageTest.userEntersInvalidLogin()'><b>userEntersInvalidLogin</b><br>Test class: dsAlgoTests.LoginPageTest<br>Parameters: invalidLogin, {=, UserName=clubNinjas-Sdet207, Password=cbcbcbhh}</td>
 <td></td>
 <td>0</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeMaxConOnes()'><b>runInvalidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
+<td title='dsAlgoTests.LoginPageTest.userShouldSignInWithValidLogin()'><b>userShouldSignInWithValidLogin</b><br>Test class: dsAlgoTests.LoginPageTest<br>Parameters: validLoginId, {password=SeleniumProj@25, username=clubNinjas-Sdet207}</td>
 <td></td>
 <td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 <tr>
-<td title='dsAlgoTests.ArrayPageTest.validCodeTryEditorArraysInPython()'><b>validCodeTryEditorArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Hello, World!</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeSearchTheArray()'><b>runInvalidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.practiseQtnsArraysInPython()'><b>practiseQtnsArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
+<td title='dsAlgoTests.LoginPageTest.userSignedIntoDsAlgo()'><b>userSignedIntoDsAlgo</b><br>Test class: dsAlgoTests.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runValidSqrsOfSortedArrayQtn()'><b>runValidSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def sortedSquares(nums):
-	squares_list = []
-	for i in range(0, len(nums)):
-		square = nums[i] * nums[i];
-		squares_list.append(square)
-	sorted_squares_list = sorted(squares_list)
-	print sorted_squares_list;
-	return sorted_squares_list;
-
-sortedSquares([-4,-1,0,3,10]), [0, 1, 9, 16, 100]</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList()'><b>inValidCodeTryEditorArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.findEvenNumberQtn()'><b>findEvenNumberQtn</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>3</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.sqrsOfSortedArrayQtn()'><b>sqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.validCodeTryEditorArraysUsingList()'><b>validCodeTryEditorArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Hello, World!</td>
-<td></td>
-<td>6</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysUsingList()'><b>inValidCodeTryEditorArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeSqrsOfSortedArrayQtn()'><b>runInvalidCodeSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInArraysUsingList()'><b>userInArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>0</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeMaxConOnes()'><b>runInvalidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: prin("Hello, World!"), NameError</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeFindEvenNumber()'><b>submitInvalidCodeFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeMaxConOnes()'><b>submitInvalidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeSqrsOfSortedArrayQtn()'><b>runInvalidCodeSqrsOfSortedArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeFindEvenNumber()'><b>runInvalidCodeFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runValidFindEvenNumber()'><b>runValidFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def findNumbers(nums):
-	c=0
-	for i in nums:
-		j=str(i)
-		x=len(j)
-		if x%2==0:
-			c=c+1
-	print(c)
-	return c
-findNumbers([12,345,2,6,7896]), 2</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInDropDownArrayPage()'><b>userInDropDownArrayPage</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>0</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.practiseQtnsArraysUsingList()'><b>practiseQtnsArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runValidCodeMaxConOnes()'><b>runValidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: def findMaxConsecutiveOnes(nums) :
-	count = 0
-	result = 0
-	for i in range(0, len(nums)):
-		if (nums[i] == 0):
-			count = 0
-		else:
-			count+= 1
-			result = max(result, count)
-	print(result)
-
-findMaxConsecutiveOnes([1,1,0,1,1,1]), 3</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInTryEditorArraysInPython()'><b>userInTryEditorArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.runInvalidCodeSearchTheArray()'><b>runInvalidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.inValidCodeTryEditorArraysInPython()'><b>inValidCodeTryEditorArraysInPython</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", SyntaxError</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeFindEvenNumber()'><b>submitInvalidCodeFindEvenNumber</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeMaxConOnes()'><b>submitInvalidCodeMaxConOnes</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeSearchTheArray()'><b>submitInvalidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!", Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.userInTryEditorArraysUsingList()'><b>userInTryEditorArraysUsingList</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.submitInvalidCodeSearchTheArray()'><b>submitInvalidCodeSearchTheArray</b><br>Test class: dsAlgoTests.ArrayPageTest<br>Parameters: print("Hello, World!"), Error occurred during submission</td>
-<td></td>
-<td>2</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
-<tr>
-<td title='dsAlgoTests.ArrayPageTest.searchTheArrayQtn()'><b>searchTheArrayQtn</b><br>Test class: dsAlgoTests.ArrayPageTest</td>
-<td></td>
-<td>1</td>
-<td>dsAlgoTests.ArrayPageTest@34158c08</td></tr>
+<td>dsAlgoTests.LoginPageTest@3e78b6a5</td></tr>
 </table><p>
 </body>
 </html>

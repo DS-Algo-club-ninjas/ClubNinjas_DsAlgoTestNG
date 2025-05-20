@@ -3,19 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsAlgoTests.ArrayPageTest">
+      <class name="dsAlgoTests.HomePageTests">
         <methods>
           <include name="setup"/>
-          <include name="userInHomePage"/>
-          <include name="submitValidCodeSearchTheArray" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysInPython" invocation-numbers="0"/>
-          <include name="submitInvalidCodeSqrsOfSortedArrayQtn" invocation-numbers="0 1"/>
-          <include name="submitValidCodeSqrsOfSortedArrayQtn" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="submitValidCodeMaxConOnes" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysUsingList" invocation-numbers="0"/>
+          <include name="userInDsAlgoPage"/>
+          <include name="userIsInlaunchPage"/>
         </methods>
-      </class> <!-- dsAlgoTests.ArrayPageTest -->
+      </class> <!-- dsAlgoTests.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
