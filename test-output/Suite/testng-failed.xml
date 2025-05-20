@@ -3,14 +3,38 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="dsAlgoTests.LoginPageTest">
+      <class name="dsAlgoTests.QueuePageTest">
         <methods>
           <include name="setup"/>
-          <include name="beforeMethod"/>
+          <include name="inValidCodeTryEditorImplUsingCollections" invocation-numbers="0"/>
+          <include name="practiseQtnsImplOfQueue"/>
+          <include name="inValidCodeTryEditorQueueOperation" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="userEntersInvalidLogin" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorImplUsingArray" invocation-numbers="0"/>
+          <include name="userInImplUsingArray"/>
+          <include name="practiseQtnsImplUsingCollections"/>
+          <include name="userInQueueOperation"/>
+          <include name="userInHomePage"/>
+          <include name="inValidCodeTryEditorImplOfQueue" invocation-numbers="0"/>
+          <include name="practiseQtnsQueueOperation"/>
+          <include name="practiseQtnsImplUsingArray"/>
         </methods>
-      </class> <!-- dsAlgoTests.LoginPageTest -->
+      </class> <!-- dsAlgoTests.QueuePageTest -->
+      <class name="dsAlgoTests.ArrayPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="submitValidCodeSearchTheArray" invocation-numbers="0"/>
+          <include name="userInHomePage"/>
+          <include name="inValidCodeTryEditorArraysInPython" invocation-numbers="0"/>
+          <include name="submitInvalidCodeSqrsOfSortedArrayQtn" invocation-numbers="0 1"/>
+          <include name="submitValidCodeSqrsOfSortedArrayQtn" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="submitValidCodeMaxConOnes" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorArraysUsingList" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorApplicationsOfArray" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorBasicOprtnsInList" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- dsAlgoTests.ArrayPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

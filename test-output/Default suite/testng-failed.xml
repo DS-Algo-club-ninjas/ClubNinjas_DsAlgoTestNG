@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsAlgoTests.HomePageTests">
+      <class name="dsAlgoTests.QueuePageTest">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="userInDsAlgoPage"/>
-          <include name="userIsInlaunchPage"/>
+          <include name="userInHomePage"/>
+          <include name="userInQueueOperation"/>
         </methods>
-      </class> <!-- dsAlgoTests.HomePageTests -->
+      </class> <!-- dsAlgoTests.QueuePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

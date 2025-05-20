@@ -1185,114 +1185,548 @@
 [INFO] 2025-05-19 01:06:19.486 [main] LoggerLoad - Print the browser in hooks:chrome
 [INFO] 2025-05-19 01:06:20.397 [main] LoggerLoad - Initializing Browser
 [INFO] 2025-05-19 01:06:28.837 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:41:54.370 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:01.446 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:06.367 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:42:06.546 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:08.465 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:22.499 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:42:22.503 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:24.112 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:27.355 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:42:27.360 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:28.967 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:32.157 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:42:32.324 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:33.847 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:36.006 [main] LoggerLoad - Launch page is displayed
-[INFO] 2025-05-19 16:42:37.099 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-05-19 16:42:37.598 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:42:37.606 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:42:39.051 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:42:41.187 [main] LoggerLoad - Login button is displayed
-[INFO] 2025-05-19 16:42:42.115 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:47:30.574 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:47:35.102 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:47:50.401 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:47:50.407 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:47:52.517 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:47:57.012 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-19 16:47:57.017 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-19 16:47:58.705 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-19 16:48:02.565 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:02.853 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:07.467 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:09.875 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:09.880 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:10.971 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:13.624 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:13.628 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:14.783 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:17.272 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:17.275 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:18.304 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:20.809 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:20.813 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:21.763 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:23.403 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:23.406 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:24.534 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:27.002 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:27.007 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:28.016 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:30.569 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:30.573 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:31.766 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:34.139 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:34.143 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:35.164 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:37.598 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:37.600 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:38.702 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:40.692 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:40.696 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:42.057 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:44.369 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:44.373 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:45.368 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:47.824 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:01:47.826 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:01:48.804 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:01:50.394 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:06.017 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:08.294 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:12.820 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:12.823 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:14.213 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:16.910 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:16.915 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:18.194 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:20.620 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:20.627 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:21.636 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:23.986 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:23.989 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:24.923 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:26.808 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:26.811 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:28.093 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:30.685 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:30.692 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:31.888 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:34.274 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:34.283 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:35.290 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:37.686 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:37.689 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:38.770 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:41.285 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:41.287 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:42.418 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:44.811 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:44.814 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:45.863 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:48.543 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:48.545 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:49.647 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:51.938 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:17:51.940 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:17:52.906 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:17:54.947 [main] LoggerLoad - Closing Browser
-[INFO] 2025-05-20 17:18:15.862 [main] LoggerLoad - Print the browser in hooks:chrome
-[INFO] 2025-05-20 17:18:18.285 [main] LoggerLoad - Initializing Browser
-[INFO] 2025-05-20 17:18:20.005 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:44:56.696 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:01.171 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:45:09.640 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:09.909 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:11.592 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 22:45:17.097 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 22:45:17.510 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:17.516 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:19.531 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:45:27.113 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:27.117 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:28.823 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:45:36.224 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:36.305 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:37.907 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 22:45:45.729 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 22:45:46.122 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:46.126 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:47.874 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:45:53.876 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:45:53.880 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:45:55.623 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:46:03.070 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:03.122 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:04.996 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 22:46:10.295 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 22:46:10.701 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:10.705 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:12.518 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:46:19.245 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:19.249 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:21.221 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:46:26.986 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:27.055 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:29.159 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 22:46:35.034 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 22:46:35.451 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:35.453 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:37.390 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:46:42.999 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:43.003 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:44.875 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:46:51.291 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:46:51.295 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:46:52.780 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:00.612 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:00.615 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:02.479 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:07.729 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:07.731 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:09.352 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:14.318 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:14.322 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:16.149 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:21.546 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:21.549 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:23.317 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:28.724 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:28.773 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:30.774 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:38.467 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:38.472 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:40.461 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:49.036 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:49.076 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:51.047 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:47:58.007 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:47:58.010 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:47:59.875 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:07.323 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:07.361 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:09.233 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:16.849 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:16.852 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:18.644 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:25.328 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:25.365 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:27.314 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:33.548 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:33.551 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:35.511 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:42.491 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:42.550 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:44.351 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:50.952 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:50.981 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:48:52.619 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:48:59.501 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:48:59.537 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:01.526 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:10.406 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:10.453 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:12.503 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:19.655 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:19.667 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:21.397 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:27.569 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:27.572 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:29.344 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:36.096 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:36.126 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:37.952 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:45.303 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:45.305 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:47.265 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:49:54.507 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:49:54.543 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:49:56.563 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:03.803 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:03.806 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:05.761 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:13.466 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:13.499 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:15.477 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:23.155 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:23.158 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:25.088 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:33.233 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:33.275 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:34.908 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:42.377 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:42.384 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:44.346 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:50:53.893 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:50:53.919 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:50:55.589 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:03.042 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:03.071 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:04.690 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:12.567 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:12.604 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:14.593 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:21.965 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:22.007 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:24.217 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:32.097 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:32.099 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:33.973 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:38.452 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:38.456 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:40.328 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:44.835 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:44.839 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:46.720 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:51.395 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:51.399 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:53.289 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:51:57.779 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:51:57.781 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:51:59.650 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:03.289 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:03.292 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:04.955 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:08.676 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:08.679 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:10.427 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:15.764 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:15.767 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:17.701 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:25.213 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:25.216 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:26.905 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:32.619 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:32.624 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:34.425 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:40.105 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:40.143 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:41.962 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:48.144 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:48.187 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:50.047 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:52:56.094 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:52:56.117 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:52:57.776 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:53:03.763 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 22:53:03.788 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 22:53:05.482 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 22:53:11.385 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:14:07.568 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:14:10.373 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:16:32.244 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:16:34.785 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:17:32.758 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:17:35.499 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:17:41.563 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:17:41.567 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:17:43.355 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:17:49.670 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:17:49.678 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:17:51.356 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:17:57.351 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:17:57.355 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:17:59.396 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:14.308 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:18:14.315 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:18:16.346 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:20.596 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:18:20.603 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:18:22.691 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:26.489 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:18:26.493 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:18:28.305 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:32.472 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:18:32.476 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:18:34.505 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:39.526 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:18:39.614 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:18:41.044 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:18:47.969 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:43:28.284 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:43:30.825 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:43:37.142 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:49:59.534 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:02.511 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:08.014 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:08.021 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:09.677 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:14.098 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:14.101 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:15.760 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:20.756 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:20.760 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:22.891 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:28.970 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:29.053 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:30.835 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 23:50:37.480 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 23:50:37.920 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:37.928 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:39.674 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:46.087 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:46.092 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:47.890 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:50:53.747 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:50:53.793 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:50:55.564 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:01.833 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:01.837 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:03.423 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:08.082 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:08.085 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:09.621 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:15.665 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:15.733 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:17.485 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:24.135 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:24.137 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:25.907 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:32.467 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:32.537 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:34.220 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:40.783 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:40.840 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:42.498 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:51:49.460 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:51:49.463 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:51:51.290 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:00.242 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:00.285 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:01.882 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:09.147 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:09.151 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:11.132 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:17.957 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:17.995 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:19.641 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:27.531 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:27.534 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:29.596 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:36.390 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:36.448 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:38.299 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:45.814 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:45.862 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:47.661 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:52:54.800 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:52:54.803 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:52:56.434 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:04.517 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:04.570 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:06.322 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:13.878 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:13.885 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:15.873 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:22.841 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:22.876 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:24.188 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:30.981 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:30.984 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:32.551 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:39.406 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:39.444 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:41.437 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:48.035 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:48.127 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:49.866 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:53:57.569 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:53:57.573 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:53:59.492 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:06.601 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:06.635 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:08.231 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:15.360 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:15.363 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:17.394 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:23.562 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:23.614 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:25.680 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:32.294 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:32.300 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:34.058 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:40.943 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:40.973 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:42.808 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:49.631 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:49.665 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:54:51.542 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:54:59.334 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:54:59.335 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:01.354 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:08.753 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:08.804 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:10.543 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:19.612 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:19.615 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:21.294 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:26.121 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:26.128 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:28.104 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:33.345 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:33.397 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:35.007 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 23:55:41.268 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 23:55:41.688 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:41.694 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:43.546 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:49.613 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:49.618 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:51.602 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:55:57.289 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:55:57.329 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:55:59.016 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:04.610 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:04.612 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:06.289 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:11.686 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:11.689 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:13.641 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:17.852 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:17.854 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:19.421 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:24.569 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:24.609 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:26.168 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 23:56:31.418 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 23:56:31.835 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:31.837 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:33.599 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:39.577 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:39.583 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:41.471 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:47.341 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:47.407 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:49.327 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:56:54.898 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:56:54.902 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:56:56.919 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:01.903 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:01.906 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:03.582 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:07.641 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:07.644 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:09.477 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:14.707 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:14.757 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:16.499 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-19 23:57:22.228 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-19 23:57:22.613 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:22.629 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:24.281 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:30.039 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:30.043 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:31.769 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:37.310 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:37.339 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:39.311 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:45.959 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:45.963 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:47.892 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:52.853 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:52.858 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:57:54.731 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:57:58.290 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:57:58.294 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:00.141 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:04.208 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:04.210 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:06.149 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:10.291 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:10.295 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:12.077 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:18.285 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:18.356 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:20.313 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:25.970 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:25.972 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:27.523 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:33.431 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:33.436 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:35.143 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:40.330 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:40.358 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:42.233 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:58:49.199 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:58:49.204 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:58:51.262 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:06.401 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:06.404 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:08.021 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:12.707 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:12.711 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:14.442 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:19.903 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:19.926 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:21.643 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:27.596 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:27.600 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:29.331 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:35.218 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:35.221 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:36.793 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:43.015 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:43.056 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:44.778 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-19 23:59:51.039 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-19 23:59:51.052 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-19 23:59:53.012 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:07.924 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:07.927 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:09.463 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:14.010 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:14.013 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:15.830 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:21.962 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:22.006 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:23.641 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:29.891 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:29.893 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:31.899 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:37.227 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:37.230 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:38.961 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:44.726 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:44.760 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:46.502 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:00:52.622 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:00:52.626 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:00:54.407 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:09.315 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:09.319 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:10.810 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:14.904 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:14.909 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:16.663 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:22.329 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:22.358 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:23.840 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:30.389 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:30.393 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:32.082 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:37.662 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:37.665 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:39.389 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:44.972 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:45.003 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:47.271 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:01:53.299 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:01:53.301 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:01:55.017 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:02:10.928 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:08:20.115 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:08:22.726 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:08:28.887 [main] LoggerLoad - NoAlertPresentException Exception
+[INFO] 2025-05-20 00:08:29.327 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:08:29.335 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:08:31.479 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:08:48.068 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:08:48.142 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:08:49.709 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:08:55.549 [main] LoggerLoad - NoAlertPresentException Exception
+[INFO] 2025-05-20 00:08:55.937 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:08:55.941 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:08:57.745 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:09:13.185 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:13.188 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:09:14.761 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:09:19.251 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:19.338 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:09:21.065 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:09:26.462 [main] LoggerLoad - NoAlertPresentException Exception
+[INFO] 2025-05-20 00:09:26.895 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:26.901 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:09:28.629 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:09:43.624 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:43.630 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:09:45.414 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:09:49.516 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:49.571 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:09:51.232 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:09:58.488 [main] LoggerLoad - NoAlertPresentException Exception
+[INFO] 2025-05-20 00:09:58.899 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:09:58.904 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:00.638 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:10:15.840 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:10:15.879 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:17.508 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:10:23.616 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-20 00:10:24.038 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:10:24.071 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:25.741 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:10:33.667 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:10:33.722 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:35.444 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:10:42.983 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:10:43.025 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:44.641 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:10:52.398 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:10:52.403 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:10:54.145 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:11:01.525 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:11:01.582 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:11:03.185 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-20 00:11:09.937 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:11:09.995 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:11:11.717 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:11:16.855 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-20 00:11:17.234 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:11:17.288 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:11:19.177 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:11:24.737 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-20 00:11:25.106 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-20 00:11:25.156 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-20 00:11:26.887 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-20 00:11:32.776 [main] LoggerLoad - No Alert Present
+[INFO] 2025-05-20 00:11:33.160 [main] LoggerLoad - Closing Browser

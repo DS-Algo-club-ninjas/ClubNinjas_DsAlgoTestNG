@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="dsAlgoTests.LoginPageTest"/>
+      <class name="dsAlgoTests.ArrayPageTest"/>
+      <class name="dsAlgoTests.QueuePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -105,8 +105,27 @@ public class ArrayPageObject {
 	}
 	
 
-	public boolean check_practiecQtns_avail() {
-		List<WebElement> elements = driver.findElements(practiceQns_available);
+	public boolean check_practiecQtns_avail(String page) {
+		List<WebElement> elements;
+		switch (page){
+		case "practiseQtns": 
+			elements = driver.findElements(practiceQns_available);
+			break;
+		case "searchTheArray": 
+			elements = driver.findElements(searchQtn);
+			break;
+		case "maxConOnes": 
+			elements = driver.findElements(maxQtn);
+			break;
+		case "findEvenNumber": 
+			elements = driver.findElements(findQtn);
+			break;
+		case "sqrsOfSortedArray": 
+			elements = driver.findElements(squaresQtn);
+			break;
+		default:
+			throw new RuntimeException("Practice Question Element not found");
+		}
 		if (!elements.isEmpty()) {
 		    return true;
 		} else {
@@ -114,41 +133,6 @@ public class ArrayPageObject {
 		}
 	}
 	
-	public boolean check_search_qtn() {
-		List<WebElement> elements = driver.findElements(searchQtn);
-		if (!elements.isEmpty()) {
-		    return true;
-		} else {
-		    return false;
-		}
-	}
-	
-	public boolean check_max_qtn() {
-		List<WebElement> elements = driver.findElements(maxQtn);
-		if (!elements.isEmpty()) {
-		    return true;
-		} else {
-		    return false;
-		}
-	}
-	
-	public boolean check_find_qtn() {
-		List<WebElement> elements = driver.findElements(findQtn);
-		if (!elements.isEmpty()) {
-		    return true;
-		} else {
-		    return false;
-		}
-	}
-	
-	public boolean check_square_qtn() {
-		List<WebElement> elements = driver.findElements(squaresQtn);
-		if (!elements.isEmpty()) {
-		    return true;
-		} else {
-		    return false;
-		}
-	}
 	
 	public String get_currentPageTitle() {
 		String currentTitle = driver.getTitle();
@@ -174,7 +158,7 @@ public class ArrayPageObject {
 		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
 		    	}
 		    	catch (Exception e1) {
-		    		e1.printStackTrace();
+		    		LoggerLoad.error("Exception " +e1+ " while tring to enter code in editor");
 		    	}
 		    }
 		}
@@ -188,7 +172,7 @@ public class ArrayPageObject {
 		output = driver.findElement(tryHereEditor_output).getText();
 		}
 		catch (Exception e) {
-			e.printStackTrace();
+			LoggerLoad.error("Exception " +e+ " in TryHere Editor Output");
 		}
 		return output;
 	}
