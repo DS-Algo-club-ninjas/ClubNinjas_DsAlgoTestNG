@@ -34,7 +34,7 @@ public class DataProviders {
 
         List<Object[]> data = new ArrayList<>();
 
-        String[] rowNames = {"EmptyField","invalidLogin","invalidLogin"}; // or dynamic based on row count
+        String[] rowNames = {"EmptyField","EmptyField","invalidLogin","invalidLogin"}; // or dynamic based on row count
 
         for (String rowName : rowNames) {
             Map<String, String> rowData = excel.getRowDataByRowName(rowName);
@@ -46,6 +46,11 @@ public class DataProviders {
         System.out.println("Print data from excel row" +data);
         return data.toArray(new Object[0][0]);
     }
+   
+   @DataProvider(name = "DataStructureOptionsWithoutSignIn")
+   public Object[][] homePageDrpDwnsOptions() throws Exception {
+	   return new Object[][] { { "Arrays" }, { "Linked List" }, {"Stack"},{"Queue"},{"Tree"},{"Graph"} };
+   }
    
    @DataProvider(name = "CodeTryEditorArray")
    public Object[][] validCodeTryEditor(Method m) throws Exception {
