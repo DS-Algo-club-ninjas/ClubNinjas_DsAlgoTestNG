@@ -3,6 +3,7 @@ package Hooks;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import DriverFactory.DriverFactory;
+import Manager.PageObjectManager;
 import Utilities.ConfigFileReader;
 import Utilities.CrossBrowserReader;
 import Utilities.LoggerLoad;
@@ -12,7 +13,7 @@ public class Hooks {
 	private static WebDriver driver;
 	ConfigFileReader configFileReader = new ConfigFileReader();
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void setup() {
 		String browser = ConfigFileReader.getBrowser();//Should comment this line to execute without crossbrowser 
 		//String browser = CrossBrowserReader.getBrowserType();//Should Uncomment this line for Crossbrowser testing
@@ -26,7 +27,8 @@ public class Hooks {
 			throw new RuntimeException("Browser not defined");
 		}
 	}
-	@AfterMethod
+	
+	@AfterMethod(alwaysRun=true)
 	public static void teardown() throws Throwable {
 		driver = DriverFactory.getDriver();
 					
