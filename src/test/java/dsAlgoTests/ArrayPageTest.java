@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import DataProvider.DataProviders;
 import Hooks.Hooks;
+import Manager.PageObjectManager;
 import PageObject.ArrayPageObject;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
@@ -18,16 +19,22 @@ public class ArrayPageTest extends Hooks {
 	HomePageObject homePageObj;
 	LoginPageObject loginPageObj;
 	ExcelReader readExcel;
+	PageObjectManager pageObjectManagerObj;
 	
-	@BeforeMethod
+	@BeforeMethod(groups="Array")
 	public void userInHomePage() {
-		arrayPageObj = new ArrayPageObject();
+		//arrayPageObj = new ArrayPageObject();
+		pageObjectManagerObj = new PageObjectManager();
+		arrayPageObj = pageObjectManagerObj.getArrayPageObject();
 		validLogin();
+		System.out.println("before");
 	}
 	
 	public void validLogin() {
-		homePageObj = new HomePageObject();
-		loginPageObj = new LoginPageObject();
+//		homePageObj = new HomePageObject();
+//		loginPageObj = new LoginPageObject();
+		homePageObj = pageObjectManagerObj.getHomePageObject();
+		loginPageObj = pageObjectManagerObj.getLoginPageObject();
 		homePageObj.clickGetStartedBtn();
 		loginPageObj.clickSignInLink();
 		ExcelReader excel;
@@ -82,7 +89,7 @@ public class ArrayPageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5)
+	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
 	public void inValidCodeTryEditorArraysInPython(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
@@ -93,7 +100,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6)
+	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
 	public void validCodeTryEditorArraysInPython(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
