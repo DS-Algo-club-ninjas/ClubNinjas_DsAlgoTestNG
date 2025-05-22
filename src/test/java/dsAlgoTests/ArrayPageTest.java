@@ -19,7 +19,7 @@ public class ArrayPageTest extends Hooks {
 	LoginPageObject loginPageObj;
 	ExcelReader readExcel;
 	
-	@BeforeMethod
+	@BeforeMethod(groups="Array")
 	public void userInHomePage() {
 		arrayPageObj = new ArrayPageObject();
 		validLogin();
@@ -82,7 +82,7 @@ public class ArrayPageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5)
+	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
 	public void inValidCodeTryEditorArraysInPython(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
@@ -93,7 +93,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6)
+	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
 	public void validCodeTryEditorArraysInPython(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();

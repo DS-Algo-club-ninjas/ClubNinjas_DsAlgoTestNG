@@ -2,6 +2,9 @@ package Utilities;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import java.io.*;
 import java.util.*;
@@ -116,5 +119,11 @@ public class ExcelReader {
         return data;
     }
 	    
+   
+
+        public static byte[] captureScreenshot(WebDriver driver) {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
+    
 
 }
