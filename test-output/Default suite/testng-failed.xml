@@ -3,14 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsAlgoTests.QueuePageTest">
+      <class name="dsAlgoTests.StackPageTest">
         <methods>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="inValidCodeTryEditorImplementation" invocation-numbers="0 1 2"/>
           <include name="userInHomePage"/>
-          <include name="userInQueueOperation"/>
+          <include name="practiseQtnsOperationsInStack"/>
+          <include name="teardown"/>
+          <include name="inValidCodeTryEditorApplications" invocation-numbers="0 1 2"/>
+          <include name="validCodeTryEditor" invocation-numbers="0"/>
+          <include name="validCodeTryEditorApplications" invocation-numbers="0"/>
+          <include name="practiseQtnsImplementation"/>
+          <include name="inValidCodeTryEditorOperationsInStack" invocation-numbers="0"/>
+          <include name="practiseQtnsApplications"/>
         </methods>
-      </class> <!-- dsAlgoTests.QueuePageTest -->
+      </class> <!-- dsAlgoTests.StackPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
