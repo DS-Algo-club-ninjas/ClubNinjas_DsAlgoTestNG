@@ -160,7 +160,7 @@ public class LinkeListPageObject {
       		return output;
       	}
       	
-      	public String acceptAlert(String errorMsg) {
+      	public String acceptAlert() {
       		String alertMsg = "";
       		try {
       			Alert alert = driver.switchTo().alert();

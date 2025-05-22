@@ -35,7 +35,8 @@ public class StackPageObject {
                   
                   By practicequestns_link = By.linkText("Practice Questions");
                   By practicequestns_available = By.xpath("//div[@class='list-group']");
-                    public void click_dropdowndatastuctr() {
+                  
+                  public void click_dropdowndatastuctr() {
                         driver.findElement(dropdowndatastructr).click();
                     }
                     
@@ -116,7 +117,7 @@ public class StackPageObject {
                  		return output;
                  	}
                  	
-                 	public String acceptAlert(String errorMsg) {
+                 	public String acceptAlert() {
                  		String alertMsg = "";
                  		try {
                  			Alert alert = driver.switchTo().alert();
