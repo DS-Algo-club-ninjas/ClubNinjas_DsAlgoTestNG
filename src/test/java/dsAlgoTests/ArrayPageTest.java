@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import DataProvider.DataProviders;
 import Hooks.Hooks;
-import Manager.PageObjectManager;
 import PageObject.ArrayPageObject;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
@@ -19,22 +18,16 @@ public class ArrayPageTest extends Hooks {
 	HomePageObject homePageObj;
 	LoginPageObject loginPageObj;
 	ExcelReader readExcel;
-	PageObjectManager pageObjectManagerObj;
 	
 	@BeforeMethod(groups="Array")
 	public void userInHomePage() {
-		//arrayPageObj = new ArrayPageObject();
-		pageObjectManagerObj = new PageObjectManager();
-		arrayPageObj = pageObjectManagerObj.getArrayPageObject();
+		arrayPageObj = new ArrayPageObject();
 		validLogin();
-		System.out.println("before");
 	}
 	
 	public void validLogin() {
-//		homePageObj = new HomePageObject();
-//		loginPageObj = new LoginPageObject();
-		homePageObj = pageObjectManagerObj.getHomePageObject();
-		loginPageObj = pageObjectManagerObj.getLoginPageObject();
+		homePageObj = new HomePageObject();
+		loginPageObj = new LoginPageObject();
 		homePageObj.clickGetStartedBtn();
 		loginPageObj.clickSignInLink();
 		ExcelReader excel;

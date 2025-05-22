@@ -3,7 +3,6 @@ package Hooks;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import DriverFactory.DriverFactory;
-import Manager.PageObjectManager;
 import Utilities.ConfigFileReader;
 import Utilities.CrossBrowserReader;
 import Utilities.LoggerLoad;
