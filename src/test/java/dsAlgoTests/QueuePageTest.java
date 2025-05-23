@@ -143,7 +143,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=13)
 	public void userInImplUsingArray() {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_implUsingArray_link();
 		String expPageTitle = "Implementation using array";
 		String actPageTitle = queuePageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
@@ -152,7 +152,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=14)
 	public void userInTryEditorImplUsingArray() {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_implUsingArray_link();
 		queuePageObj.click_tryHere_btn();
 		String expPageTitle = "Assessment";
 		String actPageTitle = queuePageObj.get_currentPageTitle();
@@ -163,7 +163,7 @@ public class QueuePageTest extends Hooks {
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=15)
 	public void inValidCodeTryEditorImplUsingArray(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_implUsingArray_link();
 		queuePageObj.click_tryHere_btn();
 		queuePageObj.enterCodeTryEditor(code);
 	    queuePageObj.click_tryHereRun_btn();
@@ -174,7 +174,7 @@ public class QueuePageTest extends Hooks {
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=16)
 	public void validCodeTryEditorImplUsingArray(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_implUsingArray_link();
 		queuePageObj.click_tryHere_btn();
 		queuePageObj.enterCodeTryEditor(code);
 	    queuePageObj.click_tryHereRun_btn();
@@ -185,7 +185,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=17)
 	public void practiseQtnsImplUsingArray() {
 		queuePageObj.click_queueGetStarted_btn();
-		queuePageObj.click_implUsingCollections_link();
+		queuePageObj.click_implUsingArray_link();
 		queuePageObj.click_practiceQns_link();
 		boolean page = queuePageObj.check_practiecQtns_avail();
 		Assert.assertTrue(page, "No Practise Questions found");
@@ -194,7 +194,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=18)
 	public void userInQueueOperation() {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_queueOperation_link();
 		String expPageTitle = "Queue Operations";
 		String actPageTitle = queuePageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
@@ -203,7 +203,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=19)
 	public void userInTryEditorQueueOperation() {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_queueOperation_link();
 		queuePageObj.click_tryHere_btn();
 		String expPageTitle = "Assessment";
 		String actPageTitle = queuePageObj.get_currentPageTitle();
@@ -214,7 +214,7 @@ public class QueuePageTest extends Hooks {
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=20)
 	public void inValidCodeTryEditorQueueOperation(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_queueOperation_link();
 		queuePageObj.click_tryHere_btn();
 		queuePageObj.enterCodeTryEditor(code);
 	    queuePageObj.click_tryHereRun_btn();
@@ -225,7 +225,7 @@ public class QueuePageTest extends Hooks {
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=21)
 	public void validCodeTryEditorQueueOperation(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
-	    queuePageObj.click_implUsingCollections_link();
+	    queuePageObj.click_queueOperation_link();
 		queuePageObj.click_tryHere_btn();
 		queuePageObj.enterCodeTryEditor(code);
 	    queuePageObj.click_tryHereRun_btn();
@@ -236,7 +236,7 @@ public class QueuePageTest extends Hooks {
 	@Test(priority=22)
 	public void practiseQtnsQueueOperation() {
 		queuePageObj.click_queueGetStarted_btn();
-		queuePageObj.click_implUsingCollections_link();
+		queuePageObj.click_queueOperation_link();
 		queuePageObj.click_practiceQns_link();
 		boolean page = queuePageObj.check_practiecQtns_avail();
 		Assert.assertTrue(page, "No Practise Questions found");

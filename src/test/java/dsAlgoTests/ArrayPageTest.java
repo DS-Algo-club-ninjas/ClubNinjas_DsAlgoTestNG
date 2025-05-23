@@ -19,7 +19,7 @@ public class ArrayPageTest extends Hooks {
 	LoginPageObject loginPageObj;
 	ExcelReader readExcel;
 	
-	@BeforeMethod
+	@BeforeMethod(groups="Array")
 	public void userInHomePage() {
 		arrayPageObj = new ArrayPageObject();
 		validLogin();
@@ -81,9 +81,9 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5)
-	public void inValidCodeTryEditorsInPython(String code, String error) {
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
+	public void inValidCodeTryEditorArraysInPython(String code, String error) {
+
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_tryHere_btn();
@@ -93,8 +93,10 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=6)
-	public void validCodeTryEditorsInPython(String code, String output) {
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=6, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, groups="Array")
+	public void validCodeTryEditorArraysInPython(String code, String output) {
+
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_tryHere_btn();

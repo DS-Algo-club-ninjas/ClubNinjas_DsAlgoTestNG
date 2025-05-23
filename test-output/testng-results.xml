@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="14" passed="11" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -64,6 +65,89 @@
           </reporter-output>
         </test-method> <!-- userInHomePage -->
         <test-method signature="inValidCodeTryEditorForGraphSubLink(java.lang.String,java.lang.String)[pri:4, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:18 EDT" name="inValidCodeTryEditorForGraphSubLink" data-provider="CodeTryEditorArray" finished-at="2025-05-23T13:21:20 EDT" duration-ms="2127" status="FAIL">
+=======
+<testng-results ignored="0" total="23" passed="11" failed="12" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-22T08:10:16 MST" name="Default suite" finished-at="2025-05-22T08:14:03 MST" duration-ms="226959">
+    <groups>
+    </groups>
+    <test started-at="2025-05-22T08:10:16 MST" name="Default test" finished-at="2025-05-22T08:14:03 MST" duration-ms="226959">
+      <class name="dsAlgoTests.StackPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:16 MST" name="setup" finished-at="2025-05-22T08:10:19 MST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:19 MST" name="userInHomePage" finished-at="2025-05-22T08:10:21 MST" duration-ms="2483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInGetStartedStackPage()[pri:1, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:21 MST" name="userInGetStartedStackPage" finished-at="2025-05-22T08:10:22 MST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInGetStartedStackPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:22 MST" name="teardown" finished-at="2025-05-22T08:10:22 MST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:22 MST" name="setup" finished-at="2025-05-22T08:10:24 MST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:24 MST" name="userInHomePage" finished-at="2025-05-22T08:10:25 MST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInDropDownStackPage()[pri:2, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:25 MST" name="userInDropDownStackPage" finished-at="2025-05-22T08:10:26 MST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInDropDownStackPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:26 MST" name="teardown" finished-at="2025-05-22T08:10:26 MST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:26 MST" name="setup" finished-at="2025-05-22T08:10:28 MST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:28 MST" name="userInHomePage" finished-at="2025-05-22T08:10:29 MST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInOperationsInStack()[pri:3, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:29 MST" name="userInOperationsInStack" finished-at="2025-05-22T08:10:30 MST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:30 MST" name="teardown" finished-at="2025-05-22T08:10:31 MST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:31 MST" name="setup" finished-at="2025-05-22T08:10:32 MST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:32 MST" name="userInHomePage" finished-at="2025-05-22T08:10:33 MST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInTryEditorOperationsInStack()[pri:4, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:33 MST" name="userInTryEditorOperationsInStack" finished-at="2025-05-22T08:10:35 MST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInTryEditorOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:35 MST" name="teardown" finished-at="2025-05-22T08:10:36 MST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:36 MST" name="setup" finished-at="2025-05-22T08:10:38 MST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:38 MST" name="userInHomePage" finished-at="2025-05-22T08:10:39 MST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorOperationsInStack(java.lang.String,java.lang.String)[pri:5, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:39 MST" name="inValidCodeTryEditorOperationsInStack" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:10:41 MST" duration-ms="1839" status="FAIL">
+>>>>>>> master
           <params>
             <param index="0">
               <value>
@@ -86,7 +170,11 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
+<<<<<<< HEAD
 at dsAlgoTests.GraphPageTests.inValidCodeTryEditorForGraphSubLink(GraphPageTests.java:62)
+=======
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorOperationsInStack(StackPageTest.java:96)
+>>>>>>> master
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -118,6 +206,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- inValidCodeTryEditorForGraphSubLink -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:20 EDT" name="teardown" finished-at="2025-05-23T13:21:21 EDT" duration-ms="325" status="PASS">
           <reporter-output>
@@ -132,6 +221,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- userInHomePage -->
         <test-method signature="inValidCodeTryEditorForGraphSubLink(java.lang.String,java.lang.String)[pri:4, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:25 EDT" name="inValidCodeTryEditorForGraphSubLink" data-provider="CodeTryEditorArray" finished-at="2025-05-23T13:21:27 EDT" duration-ms="2003" status="PASS">
+=======
+        </test-method> <!-- inValidCodeTryEditorOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:41 MST" name="teardown" finished-at="2025-05-22T08:10:41 MST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:41 MST" name="setup" finished-at="2025-05-22T08:10:43 MST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:43 MST" name="userInHomePage" finished-at="2025-05-22T08:10:45 MST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorOperationsInStack(java.lang.String,java.lang.String)[pri:5, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:45 MST" name="inValidCodeTryEditorOperationsInStack" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:10:47 MST" duration-ms="1910" status="PASS">
+>>>>>>> master
           <params>
             <param index="0">
               <value>
@@ -146,6 +251,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- inValidCodeTryEditorForGraphSubLink -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:27 EDT" name="teardown" finished-at="2025-05-23T13:21:28 EDT" duration-ms="369" status="PASS">
           <reporter-output>
@@ -160,6 +266,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- userInHomePage -->
         <test-method signature="inValidCodeTryEditorForGraphSubLink(java.lang.String,java.lang.String)[pri:4, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:33 EDT" name="inValidCodeTryEditorForGraphSubLink" data-provider="CodeTryEditorArray" finished-at="2025-05-23T13:21:34 EDT" duration-ms="1870" status="PASS">
+=======
+        </test-method> <!-- inValidCodeTryEditorOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:47 MST" name="teardown" finished-at="2025-05-22T08:10:47 MST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:47 MST" name="setup" finished-at="2025-05-22T08:10:49 MST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:49 MST" name="userInHomePage" finished-at="2025-05-22T08:10:50 MST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorOperationsInStack(java.lang.String,java.lang.String)[pri:5, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:50 MST" name="inValidCodeTryEditorOperationsInStack" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:10:52 MST" duration-ms="1919" status="PASS">
+>>>>>>> master
           <params>
             <param index="0">
               <value>
@@ -174,6 +296,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- inValidCodeTryEditorForGraphSubLink -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:34 EDT" name="teardown" finished-at="2025-05-23T13:21:35 EDT" duration-ms="267" status="PASS">
           <reporter-output>
@@ -188,6 +311,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- userInHomePage -->
         <test-method signature="validCodeTryEditorGraphSubLink(java.lang.String,java.lang.String)[pri:5, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:39 EDT" name="validCodeTryEditorGraphSubLink" data-provider="CodeTryEditorArray" finished-at="2025-05-23T13:21:42 EDT" duration-ms="2732" status="PASS">
+=======
+        </test-method> <!-- inValidCodeTryEditorOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:52 MST" name="teardown" finished-at="2025-05-22T08:10:52 MST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:52 MST" name="setup" finished-at="2025-05-22T08:10:54 MST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:54 MST" name="userInHomePage" finished-at="2025-05-22T08:10:56 MST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="validCodeTryEditorOperationsInStack(java.lang.String,java.lang.String)[pri:6, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:56 MST" name="validCodeTryEditorOperationsInStack" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:10:58 MST" duration-ms="1890" status="PASS">
+>>>>>>> master
           <params>
             <param index="0">
               <value>
@@ -202,6 +341,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- validCodeTryEditorGraphSubLink -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.GraphPageTests@5167f57d]" started-at="2025-05-23T13:21:42 EDT" name="teardown" finished-at="2025-05-23T13:21:42 EDT" duration-ms="335" status="PASS">
           <reporter-output>
@@ -271,6 +411,32 @@ at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
 at dsAlgoTests.GraphPageTests.inValidCodeTryEditorGraphRepresentationsLink(GraphPageTests.java:109)
+=======
+        </test-method> <!-- validCodeTryEditorOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:58 MST" name="teardown" finished-at="2025-05-22T08:10:58 MST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:58 MST" name="setup" finished-at="2025-05-22T08:10:59 MST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:10:59 MST" name="userInHomePage" finished-at="2025-05-22T08:11:00 MST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="practiseQtnsOperationsInStack()[pri:7, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:00 MST" name="practiseQtnsOperationsInStack" finished-at="2025-05-22T08:11:12 MST" duration-ms="11798" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Practise Questions found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Practise Questions found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dsAlgoTests.StackPageTest.practiseQtnsOperationsInStack(StackPageTest.java:116)
+>>>>>>> master
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -281,7 +447,11 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+<<<<<<< HEAD
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+=======
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+>>>>>>> master
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -300,6 +470,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+<<<<<<< HEAD
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidCodeTryEditorGraphRepresentationsLink -->
@@ -448,6 +619,950 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- dsAlgoTests.GraphPageTests -->
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseQtnsOperationsInStack -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:12 MST" name="teardown" finished-at="2025-05-22T08:11:13 MST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:13 MST" name="setup" finished-at="2025-05-22T08:11:14 MST" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:14 MST" name="userInHomePage" finished-at="2025-05-22T08:11:16 MST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInImplementation()[pri:8, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:16 MST" name="userInImplementation" finished-at="2025-05-22T08:11:17 MST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:17 MST" name="teardown" finished-at="2025-05-22T08:11:17 MST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:17 MST" name="setup" finished-at="2025-05-22T08:11:18 MST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:18 MST" name="userInHomePage" finished-at="2025-05-22T08:11:20 MST" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInTryEditorImplementation()[pri:9, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:20 MST" name="userInTryEditorImplementation" finished-at="2025-05-22T08:11:22 MST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInTryEditorImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:22 MST" name="teardown" finished-at="2025-05-22T08:11:22 MST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:22 MST" name="setup" finished-at="2025-05-22T08:11:24 MST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:24 MST" name="userInHomePage" finished-at="2025-05-22T08:11:25 MST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorImplementation(java.lang.String,java.lang.String)[pri:10, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:25 MST" name="inValidCodeTryEditorImplementation" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:11:37 MST" duration-ms="12337" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [652d0f53cf5165c043cfeab1b1b3a15a, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64661/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 652d0f53cf5165c043cfeab1b1b3a15a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [652d0f53cf5165c043cfeab1b1b3a15a, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64661/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 652d0f53cf5165c043cfeab1b1b3a15a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorImplementation(StackPageTest.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:37 MST" name="teardown" finished-at="2025-05-22T08:11:38 MST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:38 MST" name="setup" finished-at="2025-05-22T08:11:39 MST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:39 MST" name="userInHomePage" finished-at="2025-05-22T08:11:41 MST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorImplementation(java.lang.String,java.lang.String)[pri:10, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:41 MST" name="inValidCodeTryEditorImplementation" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:11:53 MST" duration-ms="11791" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deb84d5f391d6a49b6c713ef0fda99b4, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64708/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deb84d5f391d6a49b6c713ef0fda99b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [deb84d5f391d6a49b6c713ef0fda99b4, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64708/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deb84d5f391d6a49b6c713ef0fda99b4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorImplementation(StackPageTest.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:53 MST" name="teardown" finished-at="2025-05-22T08:11:53 MST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:53 MST" name="setup" finished-at="2025-05-22T08:11:55 MST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:55 MST" name="userInHomePage" finished-at="2025-05-22T08:11:56 MST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorImplementation(java.lang.String,java.lang.String)[pri:10, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:11:56 MST" name="inValidCodeTryEditorImplementation" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:12:08 MST" duration-ms="11627" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [850f32e90e93e18ed8abe55235c0a2f5, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64758/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 850f32e90e93e18ed8abe55235c0a2f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [850f32e90e93e18ed8abe55235c0a2f5, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64758/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 850f32e90e93e18ed8abe55235c0a2f5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorImplementation(StackPageTest.java:144)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:08 MST" name="teardown" finished-at="2025-05-22T08:12:08 MST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:08 MST" name="setup" finished-at="2025-05-22T08:12:10 MST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:10 MST" name="userInHomePage" finished-at="2025-05-22T08:12:11 MST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="validCodeTryEditor(java.lang.String,java.lang.String)[pri:11, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:11 MST" name="validCodeTryEditor" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:12:23 MST" duration-ms="11903" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, World!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [053cbb8a7be1c806d6042e4d4b07d796, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64802}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64802/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 053cbb8a7be1c806d6042e4d4b07d796]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [053cbb8a7be1c806d6042e4d4b07d796, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64802}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64802/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 053cbb8a7be1c806d6042e4d4b07d796
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.validCodeTryEditor(StackPageTest.java:155)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCodeTryEditor -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:23 MST" name="teardown" finished-at="2025-05-22T08:12:23 MST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:23 MST" name="setup" finished-at="2025-05-22T08:12:25 MST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:25 MST" name="userInHomePage" finished-at="2025-05-22T08:12:26 MST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="practiseQtnsImplementation()[pri:12, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:26 MST" name="practiseQtnsImplementation" finished-at="2025-05-22T08:12:38 MST" duration-ms="11074" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Practise Questions found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Practise Questions found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dsAlgoTests.StackPageTest.practiseQtnsImplementation(StackPageTest.java:166)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseQtnsImplementation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:38 MST" name="teardown" finished-at="2025-05-22T08:12:38 MST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:38 MST" name="setup" finished-at="2025-05-22T08:12:39 MST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:39 MST" name="userInHomePage" finished-at="2025-05-22T08:12:41 MST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInApplications()[pri:13, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:41 MST" name="userInApplications" finished-at="2025-05-22T08:12:42 MST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:42 MST" name="teardown" finished-at="2025-05-22T08:12:42 MST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:42 MST" name="setup" finished-at="2025-05-22T08:12:44 MST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:44 MST" name="userInHomePage" finished-at="2025-05-22T08:12:45 MST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="userInTryEditorApplications()[pri:14, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:45 MST" name="userInTryEditorApplications" finished-at="2025-05-22T08:12:47 MST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInTryEditorApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:47 MST" name="teardown" finished-at="2025-05-22T08:12:47 MST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:47 MST" name="setup" finished-at="2025-05-22T08:12:49 MST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:49 MST" name="userInHomePage" finished-at="2025-05-22T08:12:50 MST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorApplications(java.lang.String,java.lang.String)[pri:15, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:12:50 MST" name="inValidCodeTryEditorApplications" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:13:02 MST" duration-ms="12314" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1854f07cc7d1994dd598a38a22f2c708, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64965/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1854f07cc7d1994dd598a38a22f2c708]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1854f07cc7d1994dd598a38a22f2c708, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64965/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1854f07cc7d1994dd598a38a22f2c708
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorApplications(StackPageTest.java:194)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:02 MST" name="teardown" finished-at="2025-05-22T08:13:02 MST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:02 MST" name="setup" finished-at="2025-05-22T08:13:04 MST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:04 MST" name="userInHomePage" finished-at="2025-05-22T08:13:05 MST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorApplications(java.lang.String,java.lang.String)[pri:15, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:05 MST" name="inValidCodeTryEditorApplications" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:13:17 MST" duration-ms="12240" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [385c478764efc31310046bfa3748a1ea, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 385c478764efc31310046bfa3748a1ea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [385c478764efc31310046bfa3748a1ea, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65011/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 385c478764efc31310046bfa3748a1ea
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorApplications(StackPageTest.java:194)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:17 MST" name="teardown" finished-at="2025-05-22T08:13:17 MST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:17 MST" name="setup" finished-at="2025-05-22T08:13:19 MST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:19 MST" name="userInHomePage" finished-at="2025-05-22T08:13:21 MST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="inValidCodeTryEditorApplications(java.lang.String,java.lang.String)[pri:15, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:21 MST" name="inValidCodeTryEditorApplications" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:13:33 MST" duration-ms="11855" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prin("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NameError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf1b99bcf8cfcd73d2708bfbfd9acb84, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65056/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf1b99bcf8cfcd73d2708bfbfd9acb84]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf1b99bcf8cfcd73d2708bfbfd9acb84, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65056/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf1b99bcf8cfcd73d2708bfbfd9acb84
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.inValidCodeTryEditorApplications(StackPageTest.java:194)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCodeTryEditorApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:33 MST" name="teardown" finished-at="2025-05-22T08:13:33 MST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:33 MST" name="setup" finished-at="2025-05-22T08:13:35 MST" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:35 MST" name="userInHomePage" finished-at="2025-05-22T08:13:36 MST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="validCodeTryEditorApplications(java.lang.String,java.lang.String)[pri:16, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:36 MST" name="validCodeTryEditorApplications" data-provider="CodeTryEditorArray" finished-at="2025-05-22T08:13:48 MST" duration-ms="11884" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[print("Hello, World!")]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, World!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2a1e17821ee2d9487cc521b5db7f62, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65107/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2a1e17821ee2d9487cc521b5db7f62]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c2a1e17821ee2d9487cc521b5db7f62, findElement {value=Try here>>>, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\sunda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65107}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65107/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c2a1e17821ee2d9487cc521b5db7f62
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at PageObject.StackPageObject.click_tryHere_btn(StackPageObject.java:80)
+at dsAlgoTests.StackPageTest.validCodeTryEditorApplications(StackPageTest.java:205)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCodeTryEditorApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:48 MST" name="teardown" finished-at="2025-05-22T08:13:48 MST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:48 MST" name="setup" finished-at="2025-05-22T08:13:50 MST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="userInHomePage()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:50 MST" name="userInHomePage" finished-at="2025-05-22T08:13:51 MST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInHomePage -->
+        <test-method signature="practiseQtnsApplications()[pri:17, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:13:51 MST" name="practiseQtnsApplications" finished-at="2025-05-22T08:14:03 MST" duration-ms="11560" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Practise Questions found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Practise Questions found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at dsAlgoTests.StackPageTest.practiseQtnsApplications(StackPageTest.java:216)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseQtnsApplications -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgoTests.StackPageTest@7d3e8655]" started-at="2025-05-22T08:14:03 MST" name="teardown" finished-at="2025-05-22T08:14:03 MST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgoTests.StackPageTest -->
+>>>>>>> master
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
