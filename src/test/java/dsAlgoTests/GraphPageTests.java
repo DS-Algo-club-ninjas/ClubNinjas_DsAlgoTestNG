@@ -47,7 +47,7 @@ public class GraphPageTests extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	   }
 
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=4)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=4)
 	public void inValidCodeTryEditorForGraphSubLink(String code, String error) {
 		homePageObj.graphGetStartedBtnClick();
 		graphPageObj.clickGraphLink();
@@ -61,7 +61,7 @@ public class GraphPageTests extends Hooks {
 		    
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=5)
 	public void validCodeTryEditorGraphSubLink(String code, String output) {
 		
 		homePageObj.graphGetStartedBtnClick();
@@ -94,7 +94,7 @@ public class GraphPageTests extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    }
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=8)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=8)
 	public void inValidCodeTryEditorGraphRepresentationsLink(String code, String error) {
 		homePageObj.graphGetStartedBtnClick();
 		graphPageObj.clickGraphRepresentationsLink();
@@ -107,7 +107,7 @@ public class GraphPageTests extends Hooks {
 		    
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=9)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=9)
 	public void validCodeTryEditorGraphRepresentationsLink(String code, String output) {
 		
 		homePageObj.graphGetStartedBtnClick();
