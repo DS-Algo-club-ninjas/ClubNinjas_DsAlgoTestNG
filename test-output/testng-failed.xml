@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsAlgoTests.ArrayPageTest">
+      <class name="dsAlgoTests.GraphPageTests">
         <methods>
           <include name="setup"/>
           <include name="userInHomePage"/>
-          <include name="submitValidCodeSearchTheArray" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysInPython" invocation-numbers="0"/>
-          <include name="submitInvalidCodeSqrsOfSortedArrayQtn" invocation-numbers="0 1"/>
-          <include name="submitValidCodeSqrsOfSortedArrayQtn" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorForGraphSubLink" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="submitValidCodeMaxConOnes" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysUsingList" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorApplicationsOfArray" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorBasicOprtnsInList" invocation-numbers="0"/>
+          <include name="inValidCodeTryEditorGraphRepresentationsLink" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- dsAlgoTests.ArrayPageTest -->
-      <class name="dsAlgoTests.QueuePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="inValidCodeTryEditorImplUsingCollections" invocation-numbers="0"/>
-          <include name="practiseQtnsImplOfQueue"/>
-          <include name="inValidCodeTryEditorQueueOperation" invocation-numbers="0"/>
-          <include name="teardown"/>
-          <include name="inValidCodeTryEditorImplUsingArray" invocation-numbers="0"/>
-          <include name="userInImplUsingArray"/>
-          <include name="practiseQtnsImplUsingCollections"/>
-          <include name="userInHomePage"/>
-          <include name="userInQueueOperation"/>
-          <include name="inValidCodeTryEditorImplOfQueue" invocation-numbers="0"/>
-          <include name="practiseQtnsQueueOperation"/>
-          <include name="practiseQtnsImplUsingArray"/>
-        </methods>
-      </class> <!-- dsAlgoTests.QueuePageTest -->
+      </class> <!-- dsAlgoTests.GraphPageTests -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

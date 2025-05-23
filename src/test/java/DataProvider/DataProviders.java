@@ -52,7 +52,7 @@ public class DataProviders {
 	   return new Object[][] { { "Arrays" }, { "Linked List" }, {"Stack"},{"Queue"},{"Tree"},{"Graph"} };
    }
    
-   @DataProvider(name = "CodeTryEditorArray")
+   @DataProvider(name = "CodeTryEditor")
    public Object[][] validCodeTryEditor(Method m) throws Exception {
 	   String methodName = m.getName();
 	   String sheet = "";

@@ -82,8 +82,8 @@ public class ArrayPageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5)
-	public void inValidCodeTryEditorArraysInPython(String code, String error) {
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5)
+	public void inValidCodeTryEditorsInPython(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_tryHere_btn();
@@ -93,8 +93,8 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6)
-	public void validCodeTryEditorArraysInPython(String code, String output) {
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=6)
+	public void validCodeTryEditorsInPython(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_tryHere_btn();
@@ -123,7 +123,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Search the Array Questions not found");
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=9)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=9)
 	public void runInvalidCodeSearchTheArray(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -135,7 +135,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=10)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=10)
 	public void runValidCodeSearchTheArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -147,7 +147,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=11)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=11)
 	public void submitInvalidCodeSearchTheArray(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -159,7 +159,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,error);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=12)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=12)
 	public void submitValidCodeSearchTheArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -181,7 +181,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Max Consecutive Ones Questions not found");
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=14)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=14)
 	public void runInvalidCodeMaxConOnes(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -193,7 +193,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=15)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=15)
 	public void runValidCodeMaxConOnes(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -205,7 +205,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=16)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=16)
 	public void submitInvalidCodeMaxConOnes(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -217,7 +217,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,error);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=17)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=17)
 	public void submitValidCodeMaxConOnes(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -239,7 +239,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Find Numbers with Even Number of Digits Questions not found");
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=19)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=19)
 	public void runInvalidCodeFindEvenNumber(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -251,7 +251,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=20)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=20)
 	public void runValidFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -263,7 +263,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=21)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=21)
 	public void submitInvalidCodeFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -275,7 +275,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=22)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=22)
 	public void submitValidCodeFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -297,7 +297,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Squares of a Sorted Array not found");
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=24)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=24)
 	public void runInvalidCodeSqrsOfSortedArrayQtn(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -309,7 +309,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=25)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=25)
 	public void runValidSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -321,7 +321,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=26)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=26)
 	public void submitInvalidCodeSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -333,7 +333,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=27)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=27)
 	public void submitValidCodeSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
@@ -364,8 +364,8 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=30)
-	public void inValidCodeTryEditorArraysUsingList(String code, String error) {
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=30)
+	public void inValidCodeTryEditorsUsingList(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysUsingList_link();
 		arrayPageObj.click_tryHere_btn();
@@ -375,8 +375,8 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=31)
-	public void validCodeTryEditorArraysUsingList(String code, String output) {
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=31)
+	public void validCodeTryEditorsUsingList(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_arraysUsingList_link();
 		arrayPageObj.click_tryHere_btn();
@@ -414,7 +414,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=35)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=35)
 	public void inValidCodeTryEditorBasicOprtnsInList(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_basicOperationsInLists_link();
@@ -425,7 +425,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=36)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=36)
 	public void validCodeTryEditorBasicOprtnsInList(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_basicOperationsInLists_link();
@@ -464,7 +464,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=39)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=39)
 	public void inValidCodeTryEditorApplicationsOfArray(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_applicationsOfArray_link();
@@ -475,7 +475,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=40)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=40)
 	public void validCodeTryEditorApplicationsOfArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
 	    arrayPageObj.click_applicationsOfArray_link();

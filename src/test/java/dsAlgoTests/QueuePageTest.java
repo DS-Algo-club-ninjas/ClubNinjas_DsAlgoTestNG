@@ -58,7 +58,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=5)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5)
 	public void inValidCodeTryEditorImplOfQueue(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implOfQueue_link();
@@ -69,7 +69,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=6)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=6)
 	public void validCodeTryEditorImplOfQueue(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implOfQueue_link();
@@ -109,7 +109,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=10)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=10)
 	public void inValidCodeTryEditorImplUsingCollections(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -120,7 +120,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=11)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=11)
 	public void validCodeTryEditorImplUsingCollections(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -160,7 +160,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=15)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=15)
 	public void inValidCodeTryEditorImplUsingArray(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -171,7 +171,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=16)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=16)
 	public void validCodeTryEditorImplUsingArray(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -211,7 +211,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=20)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=20)
 	public void inValidCodeTryEditorQueueOperation(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -222,7 +222,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditorArray", dataProviderClass = DataProviders.class, priority=21)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=21)
 	public void validCodeTryEditorQueueOperation(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
