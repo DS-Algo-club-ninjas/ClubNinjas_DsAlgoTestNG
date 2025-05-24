@@ -36,7 +36,7 @@ public class LoginPageTest  extends Hooks{
 		public void userShouldSignInWithValidLogin(String scenario, Map<String, String> data) {
 		 LoggerLoad.info("Launch page is displayed");
 
-       	        // Example usage:
+       	    // Example usage:
 	        String username = data.get("username");
 	        String password = data.get("password");
 

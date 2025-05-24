@@ -10,6 +10,28 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 	
+	@DataProvider(name = "RegistrationDetails")
+    public Object[][] getRegisterData(Method m) throws Exception {
+ 	   String methodName = m.getName().toLowerCase(); ;
+ 	   String sheet = "Register";
+ 	   String scenario="";
+ 	   
+	   if(methodName.contains("inValid")) {
+		    scenario = "Invalid";
+		   }
+	   else if(methodName.contains("valid")) {
+		    scenario = "Valid";
+	   }
+	   else {
+		   throw new IllegalArgumentException("Test method name does not contain 'valid' or 'invalid': " + methodName);
+	   }
+	   
+	   ExcelReader excel = new ExcelReader(sheet);
+       List<Object[]> list = excel.getDataByScenario(scenario);
+       excel.close();
+       return list.toArray(new Object[0][0]);
+    }
+	
 	@DataProvider(name = "ValidloginDetails")
     public Object[][] getLoginData() throws Exception {
 	   ExcelReader excel = new ExcelReader("valid_Login");
