@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-<listeners>
-    <listener class-name="Listeners.AllureTestListener"/>
-</listeners>
-  <test thread-count="5" name="Test">
-     <!--  <groups>
-    	<run>
-    		<include name="Array"></include>
-    	</run>
-    </groups> -->
-    <classes>
+<suite name="DSAlgoCrossBrowser" parallel="tests" thread-count="2">
+  <listeners>
+   	<listener class-name="Listeners.AllureTestListener"/>
+   	<listener class-name="Listeners.ExtentReportListener"/>
+  </listeners>
+   <test name="ChromeTest">
+     <parameter name="browser" value="chrome"/>
+     <classes>
       <class name="dsAlgoTests.ArrayPageTest"/>
       <class name="dsAlgoTests.QueuePageTest"/>
       <class name="dsAlgoTests.HomePageTests"/>
       <class name="dsAlgoTests.LoginPageTest"/>
+      <class name="dsAlgoTests.StackPageTest"/> 
+      <class name="dsAlgoTests.LinkedListPageTest"/>
     </classes>
-  </test> <!-- Test -->
+    </test>
+       <test name="FireFoxTest">
+     <parameter name="browser" value="firefox"/>
+     <classes>
+      <class name="dsAlgoTests.ArrayPageTest"/>
+      <class name="dsAlgoTests.QueuePageTest"/>
+      <class name="dsAlgoTests.HomePageTests"/>
+      <class name="dsAlgoTests.LoginPageTest"/>
+      <class name="dsAlgoTests.StackPageTest"/> 
+      <class name="dsAlgoTests.LinkedListPageTest"/>
+    </classes>
+    </test>
 </suite> <!-- Suite -->

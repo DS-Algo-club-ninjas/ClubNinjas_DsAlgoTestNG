@@ -3,24 +3,22 @@ package dsAlgoTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import DataProvider.DataProviders;
 import Hooks.Hooks;
 import PageObject.QueuePageObject;
-import Utilities.ExcelReader;
+import Utilities.CommonUtil;
+
 
 public class QueuePageTest extends Hooks {
 
-	ExcelReader readExcel;
-	ArrayPageTest arrayPageTestObj;
 	QueuePageObject queuePageObj;
 	
 	@BeforeMethod
 	public void userInHomePage() {
-		arrayPageTestObj = new ArrayPageTest();
 		queuePageObj = new QueuePageObject();
-		arrayPageTestObj.validLogin();
+		CommonUtil.validLogin();
 	}
+	
 	@Test(priority=1)
 	public void userInGetStartedQueuePage() {
 		queuePageObj.click_queueGetStarted_btn();
@@ -58,7 +56,8 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=5)
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=5)
 	public void inValidCodeTryEditorImplOfQueue(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implOfQueue_link();
@@ -69,7 +68,8 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=6)
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=6)
 	public void validCodeTryEditorImplOfQueue(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implOfQueue_link();
@@ -109,7 +109,8 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=10)
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=10)
 	public void inValidCodeTryEditorImplUsingCollections(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -120,7 +121,8 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=11)
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=11)
 	public void validCodeTryEditorImplUsingCollections(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingCollections_link();
@@ -160,7 +162,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=15)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=15)
 	public void inValidCodeTryEditorImplUsingArray(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingArray_link();
@@ -171,7 +173,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=16)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=16)
 	public void validCodeTryEditorImplUsingArray(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_implUsingArray_link();
@@ -210,8 +212,8 @@ public class QueuePageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=20)
+
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=20)
 	public void inValidCodeTryEditorQueueOperation(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_queueOperation_link();
@@ -222,7 +224,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
-	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, priority=21)
+	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=21)
 	public void validCodeTryEditorQueueOperation(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
 	    queuePageObj.click_queueOperation_link();

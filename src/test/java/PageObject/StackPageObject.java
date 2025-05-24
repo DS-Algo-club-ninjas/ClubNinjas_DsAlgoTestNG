@@ -96,9 +96,10 @@ public class StackPageObject {
                  		    } catch (Exception e) {
                  		    	try {
                  		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+                 		       LoggerLoad.error("Exception when entering code Editor :  " +e);
                  		    	}
                  		    	catch (Exception e1) {
-                 		    		e1.printStackTrace();
+                 		    		LoggerLoad.error("Exception when entering code Editor :  " +e1);
                  		    	}
                  		    }
                  		}
@@ -112,7 +113,7 @@ public class StackPageObject {
                  		output = driver.findElement(tryHereEditor_output).getText();
                  		}
                  		catch (Exception e) {
-                 			e.printStackTrace();
+                 			LoggerLoad.error("Exception when getting output from editor :  " +e);
                  		}
                  		return output;
                  	}
@@ -124,7 +125,7 @@ public class StackPageObject {
                  			alertMsg = alert.getText();
                  			alert.accept();
                  		} catch (NoAlertPresentException e) {
-                 			e.printStackTrace();
+                 			LoggerLoad.error("Exception " +e);
                  		}
                  		catch (UnhandledAlertException e) {
                  			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
