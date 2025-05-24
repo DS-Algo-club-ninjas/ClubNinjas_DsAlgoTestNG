@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class LinkeListPageObject {
     
@@ -139,9 +140,10 @@ public class LinkeListPageObject {
       		    } catch (Exception e) {
       		    	try {
       		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+      		      LoggerLoad.error("Exception when entering code Editor :  " +e);
       		    	}
       		    	catch (Exception e1) {
-      		    		e1.printStackTrace();
+      		    		LoggerLoad.error("Exception when entering code Editor :  " +e1);
       		    	}
       		    }
       		}
@@ -155,7 +157,7 @@ public class LinkeListPageObject {
       		output = driver.findElement(tryHereEditor_output).getText();
       		}
       		catch (Exception e) {
-      			e.printStackTrace();
+      			LoggerLoad.error("Exception when getting output from editor :  " +e);
       		}
       		return output;
       	}
@@ -166,13 +168,11 @@ public class LinkeListPageObject {
       			Alert alert = driver.switchTo().alert();
       			alertMsg = alert.getText();
       			alert.accept();
-      			//Assert.assertTrue(alertMsg.contains(errorMsg));
       		} catch (NoAlertPresentException e) {
-      			//Assert.fail("No Alert found");
-      			e.printStackTrace();
+      			LoggerLoad.error("Exception " +e);
       		}
       		catch (UnhandledAlertException e) {
-      			System.out.println("Unhandled alert exception: " + e.getMessage());
+      			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
       		}
       		return alertMsg;
       	}

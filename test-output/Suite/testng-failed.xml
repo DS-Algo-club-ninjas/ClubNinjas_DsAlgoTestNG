@@ -3,61 +3,23 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="Listeners.AllureTestListener"/>
+    <listener class-name="Listeners.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="classes" name="DSAlgoTest(failed)">
+    <groups>
+      <run>
+        <include name="Array"/>
+      </run>
+    </groups>
     <classes>
-      <class name="dsAlgoTests.QueuePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="inValidCodeTryEditorImplUsingCollections"/>
-          <include name="userInDropDownQueuePage"/>
-          <include name="teardown"/>
-          <include name="userInGetStartedQueuePage"/>
-          <include name="validCodeTryEditorImplOfQueue"/>
-          <include name="practiseQtnsImplUsingCollections"/>
-          <include name="userInTryEditorImplUsingCollections"/>
-          <include name="userInTryEditorQueueOperation"/>
-          <include name="validCodeTryEditorImplUsingArray"/>
-          <include name="userInTryEditorImplUsingArray"/>
-          <include name="validCodeTryEditorQueueOperation"/>
-          <include name="userInImplOfQueue"/>
-          <include name="practiseQtnsImplOfQueue"/>
-          <include name="userInImplUsingCollections"/>
-          <include name="inValidCodeTryEditorQueueOperation"/>
-          <include name="inValidCodeTryEditorImplUsingArray"/>
-          <include name="userInImplUsingArray"/>
-          <include name="userInHomePage"/>
-          <include name="userInTryEditorImplOfQueue"/>
-          <include name="userInQueueOperation"/>
-          <include name="validCodeTryEditorImplUsingCollections"/>
-          <include name="inValidCodeTryEditorImplOfQueue"/>
-          <include name="practiseQtnsImplUsingArray"/>
-          <include name="practiseQtnsQueueOperation"/>
-        </methods>
-      </class> <!-- dsAlgoTests.QueuePageTest -->
       <class name="dsAlgoTests.ArrayPageTest">
         <methods>
           <include name="setup"/>
           <include name="userInHomePage"/>
-          <include name="submitValidCodeSearchTheArray" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysInPython" invocation-numbers="0"/>
           <include name="submitInvalidCodeSqrsOfSortedArrayQtn" invocation-numbers="0 1"/>
           <include name="teardown"/>
-          <include name="submitValidCodeSqrsOfSortedArrayQtn" invocation-numbers="0"/>
-          <include name="submitValidCodeMaxConOnes" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorApplicationsOfArray" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorArraysUsingList" invocation-numbers="0"/>
-          <include name="inValidCodeTryEditorBasicOprtnsInList" invocation-numbers="0"/>
         </methods>
       </class> <!-- dsAlgoTests.ArrayPageTest -->
-      <class name="dsAlgoTests.LoginPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="teardown"/>
-          <include name="userEntersInvalidLogin" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- dsAlgoTests.LoginPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- DSAlgoTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -16,4 +16,8 @@ public class dsAlgoRetryAnalyzer implements IRetryAnalyzer {
 		    }
 		    return false;
 		  }
+		  
+		  public int getRetryCount() {
+		        return maxRetryCount;
+		    }
 }
