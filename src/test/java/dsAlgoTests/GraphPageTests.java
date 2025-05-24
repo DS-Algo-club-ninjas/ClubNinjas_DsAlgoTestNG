@@ -18,7 +18,6 @@ public class GraphPageTests extends Hooks {
 	
 	@BeforeMethod
 	public void userInHomePage() {
-		arrayPageTestObj = new ArrayPageTest();
 		graphPageObj = new GraphPageObject();
 		homePageObj = new HomePageObject();
 		arrayPageTestObj.validLogin();
