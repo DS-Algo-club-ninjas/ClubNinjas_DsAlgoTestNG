@@ -56,6 +56,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=5)
 	public void inValidCodeTryEditorImplOfQueue(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
@@ -67,6 +68,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=6)
 	public void validCodeTryEditorImplOfQueue(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
@@ -107,6 +109,7 @@ public class QueuePageTest extends Hooks {
 	}
 	
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=10)
 	public void inValidCodeTryEditorImplUsingCollections(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();
@@ -118,6 +121,7 @@ public class QueuePageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=11)
 	public void validCodeTryEditorImplUsingCollections(String code, String output) {
 		queuePageObj.click_queueGetStarted_btn();
@@ -208,7 +212,7 @@ public class QueuePageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class, priority=20)
 	public void inValidCodeTryEditorQueueOperation(String code, String error) {
 		queuePageObj.click_queueGetStarted_btn();

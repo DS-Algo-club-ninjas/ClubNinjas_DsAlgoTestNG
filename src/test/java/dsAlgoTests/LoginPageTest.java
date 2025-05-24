@@ -34,13 +34,9 @@ public class LoginPageTest  extends Hooks{
 	
 	 @Test(groups = { "login" },dataProvider = "ValidloginDetails", dataProviderClass = DataProviders.class)
 		public void userShouldSignInWithValidLogin(String scenario, Map<String, String> data) {
-		LoggerLoad.info("Launch page is displayed");
-		
-		 System.out.println("Running test case: " + scenario);
-	        System.out.println("Username: " + data.get("username"));
-	        System.out.println("Password: " + data.get("password"));
-	       
-	        // Example usage:
+		 LoggerLoad.info("Launch page is displayed");
+
+       	    // Example usage:
 	        String username = data.get("username");
 	        String password = data.get("password");
 
@@ -51,6 +47,7 @@ public class LoginPageTest  extends Hooks{
 		loginPageObj.enterUserNameTxtBox(username);
 		loginPageObj.enterPasswordRegTxtBox(password);
 		loginPageObj.LoginBtnClick();
+		
 		 // Validate login success
 		boolean isSignOutDisplayed = loginPageObj.signOutLinkDisplayed();
 		Assert.assertTrue(isSignOutDisplayed, "Sign Out link is not displayed, user may not be on Home page.");

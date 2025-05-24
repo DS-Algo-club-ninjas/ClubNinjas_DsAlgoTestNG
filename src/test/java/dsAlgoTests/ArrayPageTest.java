@@ -53,8 +53,7 @@ public class ArrayPageTest extends Hooks {
 		String actPageTitle = arrayPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
-	
-	
+		
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class,  priority=5, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class)
 	public void inValidCodeTryEditorsInPython(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -108,6 +107,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=10)
 	public void runValidCodeSearchTheArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -120,6 +120,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=11)
 	public void submitInvalidCodeSearchTheArray(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -132,6 +133,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,error);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=12)
 	public void submitValidCodeSearchTheArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -154,6 +156,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Max Consecutive Ones Questions not found");
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=14)
 	public void runInvalidCodeMaxConOnes(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -166,6 +169,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=15)
 	public void runValidCodeMaxConOnes(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -178,6 +182,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=16)
 	public void submitInvalidCodeMaxConOnes(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -190,6 +195,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,error);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=17)
 	public void submitValidCodeMaxConOnes(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -212,6 +218,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Find Numbers with Even Number of Digits Questions not found");
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=19)
 	public void runInvalidCodeFindEvenNumber(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -224,6 +231,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=20)
 	public void runValidFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -236,6 +244,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=21)
 	public void submitInvalidCodeFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -248,6 +257,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=22)
 	public void submitValidCodeFindEvenNumber(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -270,6 +280,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertTrue(page, "Squares of a Sorted Array not found");
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=24)
 	public void runInvalidCodeSqrsOfSortedArrayQtn(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -282,6 +293,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=25)
 	public void runValidSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -294,6 +306,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);	
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=26)
 	public void submitInvalidCodeSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -308,6 +321,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertEquals(actOutput,output);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=27)
 	public void submitValidCodeSqrsOfSortedArrayQtn(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -339,6 +353,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=30)
 	public void inValidCodeTryEditorsUsingList(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -350,6 +365,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=31)
 	public void validCodeTryEditorsUsingList(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -389,6 +405,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=35)
 	public void inValidCodeTryEditorBasicOprtnsInList(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -400,6 +417,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=36)
 	public void validCodeTryEditorBasicOprtnsInList(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -439,6 +457,7 @@ public class ArrayPageTest extends Hooks {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=39)
 	public void inValidCodeTryEditorApplicationsOfArray(String code, String error) {
 		arrayPageObj.click_arrayGetStarted_btn();
@@ -450,6 +469,7 @@ public class ArrayPageTest extends Hooks {
 	    Assert.assertTrue(alertMsg.contains(error));
 	}
 	
+
 	@Test(dataProvider="CodeTryEditor", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class,  priority=40)
 	public void validCodeTryEditorApplicationsOfArray(String code, String output) {
 		arrayPageObj.click_arrayGetStarted_btn();

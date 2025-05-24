@@ -12,6 +12,7 @@
       </run>
     </groups>
     <classes>
+<<<<<<< HEAD
       <class name="dsAlgoTests.ArrayPageTest">
         <methods>
           <include name="setup"/>
@@ -20,6 +21,16 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- dsAlgoTests.ArrayPageTest -->
+=======
+      <class name="dsAlgoTests.RegisterPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="invalidPswdWithBlankDetails"/>
+          <include name="userInDsAlgoPage"/>
+        </methods>
+      </class> <!-- dsAlgoTests.RegisterPageTest -->
+>>>>>>> master
     </classes>
   </test> <!-- DSAlgoTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
