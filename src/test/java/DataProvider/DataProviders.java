@@ -65,7 +65,6 @@ public class DataProviders {
             }
         }
         excel.close();
-        System.out.println("Print data from excel row" +data);
         return data.toArray(new Object[0][0]);
     }
    

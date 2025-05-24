@@ -1,12 +1,9 @@
 package dsAlgoTests;
 
-import java.util.Map;
-
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import DataProvider.DataProviders;
 import Hooks.Hooks;
 import PageObject.HomePageObject;

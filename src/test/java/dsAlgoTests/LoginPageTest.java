@@ -84,9 +84,7 @@ public class LoginPageTest  extends Hooks{
 	 
 		 @Test(dataProvider = "inValidloginDetails", dataProviderClass = DataProviders.class)
 		public void userEntersInvalidLogin(String scenario, Map<String, String> data) {
-			 System.out.println("Print data" +data);
 		 String errorMessage = "Invalid Username and Password";
-		 System.out.println("Invalid Error:" +errorMessage);
 		 String username = data.get("UserName");
 	     String password = data.get("Password");
 			

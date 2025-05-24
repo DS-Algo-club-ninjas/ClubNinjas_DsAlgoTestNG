@@ -12,7 +12,7 @@ public class ArrayPageTest extends Hooks {
 	
 	ArrayPageObject arrayPageObj;
 	
-	@BeforeMethod(groups="Array")
+	@BeforeMethod
 	public void userInHomePage() {
 		arrayPageObj = new ArrayPageObject();
 		CommonUtil.validLogin();
@@ -315,8 +315,6 @@ public class ArrayPageTest extends Hooks {
 		arrayPageObj.click_sqrsOfArray_link();
 		arrayPageObj.enterCodeTryEditor(code);
 	    arrayPageObj.click_submit_btn();
-	    System.out.println("code " +code);
-	    System.out.println("output " +output);
 	    String actOutput = arrayPageObj.get_tryHereEditor_output();
 	    Assert.assertEquals(actOutput,output);
 	}

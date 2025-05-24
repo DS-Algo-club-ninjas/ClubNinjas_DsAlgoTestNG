@@ -7,20 +7,20 @@ import org.testng.annotations.Test;
 import DataProvider.DataProviders;
 import Hooks.Hooks;
 import PageObject.*;
+import Utilities.CommonUtil;
 import Utilities.ExcelReader;
 
 public class GraphPageTests extends Hooks {
 
 	ExcelReader readExcel;
 	GraphPageObject graphPageObj;
-	ArrayPageTest arrayPageTestObj;
 	HomePageObject homePageObj;
 	
 	@BeforeMethod
 	public void userInHomePage() {
 		graphPageObj = new GraphPageObject();
 		homePageObj = new HomePageObject();
-		arrayPageTestObj.validLogin();
+		CommonUtil.validLogin();
 	}
 	@Test(priority=1)
 	public void userInGetStartedQueuePage() {

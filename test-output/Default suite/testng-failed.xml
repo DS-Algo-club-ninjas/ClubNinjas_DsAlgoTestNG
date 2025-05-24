@@ -3,25 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="dsAlgoTests.ArrayPageTest">
         <methods>
           <include name="setup"/>
           <include name="userInHomePage"/>
-          <include name="submitInvalidCodeSqrsOfSortedArrayQtn" invocation-numbers="0 1"/>
           <include name="teardown"/>
+          <include name="submitValidCodeSqrsOfSortedArrayQtn" invocation-numbers="0"/>
         </methods>
       </class> <!-- dsAlgoTests.ArrayPageTest -->
-=======
-      <class name="dsAlgoTests.RegisterPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="invalidPswdWithBlankDetails"/>
-          <include name="userInDsAlgoPage"/>
-        </methods>
-      </class> <!-- dsAlgoTests.RegisterPageTest -->
->>>>>>> master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

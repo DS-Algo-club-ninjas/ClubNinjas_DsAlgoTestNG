@@ -5,10 +5,16 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.time.Duration;
 import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
 import PageObject.HomePageObject;
@@ -16,6 +22,13 @@ import PageObject.LoginPageObject;
 
 public class CommonUtil {
 
+	private static WebDriver driver = DriverFactory.getDriver();;
+    private static WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+    public static WebElement waitForVisibility(By locator) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+    
 	public static void validLogin() {
 		HomePageObject homePageObj = new HomePageObject();
 		LoginPageObject loginPageObj = new LoginPageObject();
