@@ -1,6 +1,7 @@
 package PageObject;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -73,6 +74,9 @@ public class TreePageObject {
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
 
 	By practiceQns_link = By.xpath("//a[normalize-space()='Practice Questions']");
+	
+	By practiceQns_available = By.xpath("//div[@class='list-group']");
+
 
 	public String get_currentPageTitle() {
 		String currentTitle = driver.getTitle();
@@ -81,6 +85,16 @@ public class TreePageObject {
 
 	public void click_getStarted_btn() {
 		driver.findElement(getStarted_btn).click();
+		
+	}
+
+	public boolean check_practiecQtns_avail() {
+		List<WebElement> elements = driver.findElements(practiceQns_available);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
 	}
 
 	public void click_tree_getStarted_btn() {
@@ -195,22 +209,26 @@ public class TreePageObject {
 		return output;
 	}
 
-	public void acceptAlert(String errorMsg) {
+	public String acceptAlert() {
+		String alertMsg = "";
 		try {
 			Alert alert = driver.switchTo().alert();
-			String alertMsg = alert.getText();
+			alertMsg = alert.getText();
 			alert.accept();
-			Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
-			Assert.fail("No Alert found");
-		} catch (UnhandledAlertException e) {
+			LoggerLoad.error("No Alert Present");
+		}
+		catch (UnhandledAlertException e) {
 			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
+		return alertMsg;
 	}
+	
 
 	public void click_tryHereRun_btn() {
 		driver.findElement(run_btn).click();
 
 	}
+
 
 }
