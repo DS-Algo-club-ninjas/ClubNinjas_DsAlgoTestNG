@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class DataStructurePageObject {
 	
@@ -32,6 +33,7 @@ public class DataStructurePageObject {
 	By dataStructreTitle = By.linkText("Data Structures-Introduction");
 	By dataStructuresGetStarted_btn = By.xpath("//a[@href='data-structures-introduction']");
 	By timeComplexity_btn = By.xpath("//a[@href='time-complexity']");
+	By practiceQns_available = By.xpath("//div[@class='list-group']");
 	By practiceQns_link = By.linkText("Practice Questions");
 	By tryHere_btn = By.linkText("Try here>>>");
 	By run_btn = By.xpath("//button");
@@ -49,7 +51,11 @@ public class DataStructurePageObject {
 
       public void enter_userNameTxtBox(String username ) {
 	     driver.findElement(userNameTxtBox).sendKeys(username);
+	     
 }
+      public void click_practiceQns_link() {
+  		driver.findElement(practiceQns_link).click();
+      }
 
       public void enter_passwordTxtBox(String password) {
 	     driver.findElement(passwordTxtBox).sendKeys(password);
@@ -69,9 +75,15 @@ public class DataStructurePageObject {
       
      }
       
-      public void click_practiceQns_link() {
-  		driver.findElement(practiceQns_link).click();
-  	}
+  	public boolean check_practiecQtns_avail() {
+		List<WebElement> elements = driver.findElements(practiceQns_available);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+  	
       public void click_first_practiceQn_link() {
   	    
   	    List<WebElement> links = driver.findElements(first_practiceQns_link);
@@ -131,20 +143,25 @@ public class DataStructurePageObject {
 		return output;
 	}
 	
-	public void acceptAlert(String errorMsg) {
+	
+	
+	public String acceptAlert() {
+		String alertMsg = "";
 		try {
 			Alert alert = driver.switchTo().alert();
-			String alertMsg = alert.getText();
-			System.out.println("Alert Is:" + alertMsg);
+			alertMsg = alert.getText();
 			alert.accept();
-			Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
-			Assert.fail("No Alert found");
+			LoggerLoad.error("No Alert Present");
 		}
 		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
-		}
+		return alertMsg;
+	}
+
+	
+	
 }
 
 
