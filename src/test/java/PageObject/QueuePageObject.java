@@ -99,7 +99,7 @@ public class QueuePageObject {
 		        break;
 		    } catch (Exception e) {
 		    	try {
-		    		CommonUtil.waitForVisibility(tryHereEditor_box);
+		    		CommonUtil.waitForVisibility(tryHereEditor_box, driver);
 		    	}
 		    	catch (Exception e1) {
 		    		LoggerLoad.error("Exception " +e1+ " while tring to enter code in editor");
@@ -110,8 +110,9 @@ public class QueuePageObject {
 	
 	public String get_tryHereEditor_output() {
 		String output = "";
+		WebElement tryHereOutput;
 		try {
-			CommonUtil.waitForVisibility(tryHereEditor_output);
+			tryHereOutput=CommonUtil.waitForVisibility(tryHereEditor_output, driver);
 			output = driver.findElement(tryHereEditor_output).getText();
 		}
 		catch (Exception e) {

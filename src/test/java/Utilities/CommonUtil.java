@@ -22,10 +22,10 @@ import PageObject.LoginPageObject;
 
 public class CommonUtil {
 
-	private static WebDriver driver = DriverFactory.getDriver();;
-    private static WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	//private static WebDriver driver = DriverFactory.getDriver();
 
-    public static WebElement waitForVisibility(By locator) {
+    public static WebElement waitForVisibility(By locator, WebDriver driver) {
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
     

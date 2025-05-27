@@ -25,7 +25,6 @@ public class DataProviders {
 	   else {
 		   throw new IllegalArgumentException("Test method name does not contain 'valid' or 'invalid': " + methodName);
 	   }
-	   
 	   ExcelReader excel = new ExcelReader(sheet);
        List<Object[]> list = excel.getDataByScenario(scenario);
        excel.close();

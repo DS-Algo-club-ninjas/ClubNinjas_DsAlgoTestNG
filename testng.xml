@@ -16,6 +16,8 @@
       <class name="dsAlgoTests.LinkedListPageTest"/>
       <class name="dsAlgoTests.DataStructurePageTest"/>
       <class name="dsAlgoTests.TreePageTest"/>
+      <class name="dsAlgoTests.RegisterPageTest"/>
+      <class name="dsAlgoTests.GraphPageTests"/> 
     </classes>
     </test>
     <test name="FireFoxTest">
@@ -29,6 +31,8 @@
       <class name="dsAlgoTests.LinkedListPageTest"/>
       <class name="dsAlgoTests.DataStructurePageTest"/>
       <class name="dsAlgoTests.TreePageTest"/>
+      <class name="dsAlgoTests.RegisterPageTest"/>
+      <class name="dsAlgoTests.GraphPageTests"/>
     </classes>
     </test>
 </suite> <!-- Suite -->

@@ -93,7 +93,7 @@ public class StackPageObject {
 				break;
 			} catch (Exception e) {
 				try {
-					CommonUtil.waitForVisibility(tryHereEditor_box);
+					CommonUtil.waitForVisibility(tryHereEditor_box, driver);
 					LoggerLoad.error("Exception when entering code Editor :  " +e);
 				}
 				catch (Exception e1) {
@@ -105,8 +105,9 @@ public class StackPageObject {
 
 	public String get_tryHereEditor_output() {
 		String output = "";
+		WebElement tryHereOutput;
 		try {
-			CommonUtil.waitForVisibility(tryHereEditor_output);
+			tryHereOutput= CommonUtil.waitForVisibility(tryHereEditor_output, driver);
 			output = driver.findElement(tryHereEditor_output).getText();
 		}
 		catch (Exception e) {

@@ -152,7 +152,7 @@ public class ArrayPageObject {
 		        break;
 		    } catch (Exception e) {
 		    	try {
-		    	CommonUtil.waitForVisibility(tryHereEditor_box);
+		    	CommonUtil.waitForVisibility(tryHereEditor_box, driver);
 		    	}
 		    	catch (Exception e1) {
 		    		LoggerLoad.error("Exception " +e1+ " while tring to enter code in editor");
@@ -163,9 +163,10 @@ public class ArrayPageObject {
 	
 	public String get_tryHereEditor_output() {
 		String output = "";
+		WebElement tryHereOutput;
 		try {
-		CommonUtil.waitForVisibility(tryHereEditor_output);
-		output = driver.findElement(tryHereEditor_output).getText();
+			tryHereOutput = CommonUtil.waitForVisibility(tryHereEditor_output,driver);
+			output = tryHereOutput.getText();
 		}
 		catch (Exception e) {
 			LoggerLoad.error("Exception " +e+ " in TryHere Editor Output");
