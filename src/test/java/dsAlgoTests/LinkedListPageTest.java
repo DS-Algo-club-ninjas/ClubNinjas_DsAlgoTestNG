@@ -5,12 +5,13 @@ package dsAlgoTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.LinkeListPageObject;
 import Utilities.CommonUtil;
 
-public class LinkedListPageTest  extends Hooks {
+public class LinkedListPageTest  extends BaseClass {
 
 	LinkeListPageObject linkedlistObj; 
 

@@ -1,4 +1,4 @@
-package Hooks;
+package BaseClass;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
@@ -8,7 +8,7 @@ import Utilities.ConfigFileReader;
 import Utilities.LoggerLoad;
 
 
-public class Hooks {
+public class BaseClass {
 	private static WebDriver driver;
 	ConfigFileReader configFileReader = new ConfigFileReader();
 

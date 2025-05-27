@@ -5,15 +5,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
-
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import PageObject.RegistrationPageObject;
 import Utilities.ExcelReader;
 
-public class HomePageTests extends Hooks {
+public class HomePageTests extends BaseClass {
 	
 		RegistrationPageObject registerPageObj;
 		HomePageObject homePageObj;

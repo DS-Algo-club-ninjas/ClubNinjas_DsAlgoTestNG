@@ -8,14 +8,14 @@ import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import PageObject.RegistrationPageObject;
 
 
-public class LoginPageTest  extends Hooks{
+public class LoginPageTest  extends BaseClass{
 	
 	RegistrationPageObject registerPageObj;
 	HomePageObject homePageObj;

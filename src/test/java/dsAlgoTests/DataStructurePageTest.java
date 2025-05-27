@@ -4,14 +4,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.DataStructurePageObject;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import Utilities.CommonUtil;
 
-public class DataStructurePageTest extends Hooks {
+public class DataStructurePageTest extends BaseClass {
 
 	HomePageObject homePageObj;
 	LoginPageObject loginPageObj;

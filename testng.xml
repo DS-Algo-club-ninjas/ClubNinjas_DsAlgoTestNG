@@ -14,9 +14,11 @@
       <class name="dsAlgoTests.LoginPageTest"/>
       <class name="dsAlgoTests.StackPageTest"/> 
       <class name="dsAlgoTests.LinkedListPageTest"/>
+      <class name="dsAlgoTests.DataStructurePageTest"/>
+      <class name="dsAlgoTests.TreePageTest"/>
     </classes>
     </test>
-       <test name="FireFoxTest">
+    <test name="FireFoxTest">
      <parameter name="browser" value="firefox"/>
      <classes>
       <class name="dsAlgoTests.ArrayPageTest"/>
@@ -25,6 +27,8 @@
       <class name="dsAlgoTests.LoginPageTest"/>
       <class name="dsAlgoTests.StackPageTest"/> 
       <class name="dsAlgoTests.LinkedListPageTest"/>
+      <class name="dsAlgoTests.DataStructurePageTest"/>
+      <class name="dsAlgoTests.TreePageTest"/>
     </classes>
     </test>
 </suite> <!-- Suite -->

@@ -1,8 +1,6 @@
 package PageObject;
 
-import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,11 +10,8 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-
 import DriverFactory.DriverFactory;
+import Utilities.CommonUtil;
 import Utilities.LoggerLoad;
 
 public class TreePageObject {
@@ -188,8 +183,7 @@ public class TreePageObject {
 	}
 
 	public void enterCodeTryEditor(String pythonCode) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(run_btn));
+		CommonUtil.waitForVisibility(run_btn);
 		WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
 		tryHereEditor.sendKeys(Keys.CONTROL + "a");
 		tryHereEditor.sendKeys(Keys.DELETE);
@@ -200,8 +194,7 @@ public class TreePageObject {
 	public String get_tryHereEditor_output() {
 		String output = null;
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
+			CommonUtil.waitForVisibility(tryHereEditor_output);
 			output = driver.findElement(tryHereEditor_output).getText();
 		} catch (TimeoutException e) {
 			e.printStackTrace();

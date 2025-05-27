@@ -6883,3 +6883,32 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
 [INFO] 2025-05-24 02:53:55.608 [main] LoggerLoad - Print the browser in hooks:edge
 [INFO] 2025-05-24 02:54:00.028 [main] LoggerLoad - Initializing Browser
 [INFO] 2025-05-24 02:54:08.059 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-25 23:06:44.481 [TestNG-tests-2] LoggerLoad - Print the browser in hooks:firefox
+[INFO] 2025-05-25 23:06:44.481 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-25 23:06:48.516 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-25 23:06:53.759 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-25 23:06:53.765 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-25 23:06:55.420 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-25 23:06:56.315 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:33:31.707 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:33:35.717 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:33:41.096 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:33:41.104 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:33:42.816 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:33:47.978 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:33:47.983 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:33:49.267 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:33:53.630 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:33:53.634 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:41:15.788 [TestNG-tests-2] LoggerLoad - Print the browser in hooks:firefox
+[INFO] 2025-05-26 19:41:15.788 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:41:19.394 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:41:23.605 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:41:23.613 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:41:25.352 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:41:25.629 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:41:28.817 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:41:28.821 [TestNG-tests-1] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-26 19:41:30.044 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-26 19:41:30.547 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-26 19:41:30.551 [TestNG-tests-2] LoggerLoad - Print the browser in hooks:firefox
