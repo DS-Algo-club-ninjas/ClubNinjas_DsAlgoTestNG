@@ -3,12 +3,13 @@ package dsAlgoTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.ArrayPageObject;
 import Utilities.CommonUtil;
 
-public class ArrayPageTest extends Hooks {
+public class ArrayPageTest extends BaseClass {
 	
 	ArrayPageObject arrayPageObj;
 	

@@ -3,13 +3,14 @@ package dsAlgoTests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.QueuePageObject;
 import Utilities.CommonUtil;
 
 
-public class QueuePageTest extends Hooks {
+public class QueuePageTest extends BaseClass {
 
 	QueuePageObject queuePageObj;
 	

@@ -4,13 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
 import DataProvider.DataProviders;
-import Hooks.Hooks;
 import PageObject.*;
 import Utilities.CommonUtil;
 import Utilities.ExcelReader;
 
-public class GraphPageTests extends Hooks {
+public class GraphPageTests extends BaseClass {
 
 	ExcelReader readExcel;
 	GraphPageObject graphPageObj;
