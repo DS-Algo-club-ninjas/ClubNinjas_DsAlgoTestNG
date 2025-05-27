@@ -31,8 +31,6 @@ public class ExtentReportListener implements ITestListener {
 		test.set(extentTest);
 		test.get().fail(result.getThrowable());
 
-		// Take screenshot if WebDriver is available
-		//Object currentClass = result.getInstance();
 		WebDriver driver= DriverFactory.getDriver();
 		if (driver != null) {
 			String screenshotPath = CommonUtil.extentScreenShot(driver, result.getMethod().getMethodName());

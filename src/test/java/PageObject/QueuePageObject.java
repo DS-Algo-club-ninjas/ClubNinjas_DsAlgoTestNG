@@ -1,8 +1,6 @@
 package PageObject;
 
-import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,10 +9,8 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import DriverFactory.DriverFactory;
+import Utilities.CommonUtil;
 import Utilities.LoggerLoad;
 
 public class QueuePageObject {
@@ -89,11 +85,11 @@ public class QueuePageObject {
 	}
 	
 	public void enterCodeTryEditor(String pythonCode) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement tryHereEditor;
 		JavascriptExecutor js = (JavascriptExecutor)driver;		
 		for (int i = 0; i < 2; i++) {
 		    try {
-		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+		    	tryHereEditor = driver.findElement(tryHereEditor_box);
 		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
 				tryHereEditor.sendKeys(Keys.DELETE);
 				js.executeScript(
@@ -103,7 +99,7 @@ public class QueuePageObject {
 		        break;
 		    } catch (Exception e) {
 		    	try {
-		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+		    		CommonUtil.waitForVisibility(tryHereEditor_box);
 		    	}
 		    	catch (Exception e1) {
 		    		LoggerLoad.error("Exception " +e1+ " while tring to enter code in editor");
@@ -115,9 +111,8 @@ public class QueuePageObject {
 	public String get_tryHereEditor_output() {
 		String output = "";
 		try {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
-		output = driver.findElement(tryHereEditor_output).getText();
+			CommonUtil.waitForVisibility(tryHereEditor_output);
+			output = driver.findElement(tryHereEditor_output).getText();
 		}
 		catch (Exception e) {
 			LoggerLoad.error("Exception " +e+ " in TryHere Editor Output");
