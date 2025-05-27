@@ -136,7 +136,7 @@ public class LinkeListPageObject {
       		        break;
       		    } catch (Exception e) {
       		    	try {
-      		    		CommonUtil.waitForVisibility(tryHereEditor_box);
+      		    		CommonUtil.waitForVisibility(tryHereEditor_box, driver);
       		    		LoggerLoad.error("Exception when entering code Editor :  " +e);
       		    	}
       		    	catch (Exception e1) {
@@ -148,9 +148,10 @@ public class LinkeListPageObject {
       	
       	public String get_tryHereEditor_output() {
       		String output = "";
+      		WebElement tryHereOutput;
       		try {
-      	    CommonUtil.waitForVisibility(tryHereEditor_output);
-      		output = driver.findElement(tryHereEditor_output).getText();
+      			tryHereOutput = CommonUtil.waitForVisibility(tryHereEditor_output, driver);
+      			output = driver.findElement(tryHereEditor_output).getText();
       		}
       		catch (Exception e) {
       			LoggerLoad.error("Exception when getting output from editor :  " +e);

@@ -29,7 +29,7 @@ public class RegisterPageTest extends BaseClass{
 	}
 	
 	 @Test(groups = { "Register" },priority=1, dataProvider = "RegistrationDetails", dataProviderClass = DataProviders.class, retryAnalyzer = Listeners.dsAlgoRetryAnalyzer.class)
-		public void invalidUserNameReg(String username, String password, String confirmPassword, String expected, String Actual) {
+		public void inValidUserNameReg(String username, String password, String confirmPassword, String expected, String Actual) {
 		
 	       Assert.assertNotNull(username, "Username is missing for scenario: " + username);
 	        
